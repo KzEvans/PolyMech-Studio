@@ -1,0 +1,27 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_fatigue_crack_growth.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "cycle_number",
+    "unit": null,
+    "confidence": 0.95,
+    "rationale": "列名“循环次数”，数值为 0、10000、20000… 等整数，且单调递增，与疲劳试验的循环计数一致；该量无量纲。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "crack_length",
+    "unit": "mm",
+    "confidence": 0.93,
+    "rationale": "列名“裂纹长度 (mm)”，单位写明为 mm；数值从约 15.00 mm 开始缓慢增大，属于包含初始裂纹的绝对长度，不是从 0 开始的扩展量。",
+    "ambiguities": [
+     "如果需要裂纹扩展距离，可以用每行数值减去初始值（约 15.0039 mm）得到。"
+    ]
+   }
+  ]
+ }
+}

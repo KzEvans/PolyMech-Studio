@@ -1,0 +1,44 @@
+{
+  "mode": "local",
+  "vms": [],
+  "bridge_url": "",
+  "token_configured": false,
+  "local_origin": {
+    "installed": true,
+    "executable": "C:\\PROGRA~1\\ORIGIN~1\\ORIGIN~1\\Origin64.exe"
+  },
+  "health": {
+    "status": "ok",
+    "service": "polymech-origin-bridge",
+    "version": "0.1.0"
+  },
+  "capabilities": {
+    "bridge_version": "0.1.0",
+    "python": "3.12.15",
+    "python_bits": 64,
+    "machine": "ARM64",
+    "originpro_importable": true,
+    "origin": {},
+    "exports": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "templates": [
+      "pm_line",
+      "pm_scatter",
+      "pm_linesymb",
+      "pm_doubley",
+      "pm_thesis_line",
+      "pm_thesis_scatter",
+      "pm_thesis_linesymb",
+      "pm_thesis_doubley",
+      "line",
+      "scatter",
+      "linesymb",
+      "doubley"
+    ],
+    "queue_length": 0
+  },
+  "reachable": true
+}

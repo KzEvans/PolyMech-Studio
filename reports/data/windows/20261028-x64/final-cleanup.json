@@ -1,0 +1,10 @@
+{
+  "application_or_origin_processes": [],
+  "legacy_bridge_health": {
+    "status": "ok",
+    "service": "polymech-origin-bridge",
+    "version": "0.1.0"
+  },
+  "reinstalled_component_hashes_match": true,
+  "installer_signature": "NotSigned"
+}

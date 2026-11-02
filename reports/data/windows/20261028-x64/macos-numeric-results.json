@@ -1,0 +1,132 @@
+{
+  "uniaxial": {
+    "result": {
+      "break_index": 399,
+      "break_detected": true,
+      "modulus_fit": {
+        "slope": 1150671.1272315492,
+        "intercept": -1150357.0754458348,
+        "slope_stderr": 6656.6434250473785,
+        "intercept_stderr": 6807.529326277514,
+        "r_squared": 0.9998326963194917,
+        "n_points": 7,
+        "x_min": 1.0,
+        "x_max": 1.0451128,
+        "residuals": [
+          -314.0517857144587,
+          -6.967857142910361,
+          184.31607142817302,
+          244.9999999997235,
+          242.13392857127474,
+          -37.38214285718277,
+          -313.0482142858673
+        ],
+        "cov_slope_intercept": -45310396.111061715
+      },
+      "max_stress_pa": 1575345.0,
+      "stretch_at_max_stress": 4.0,
+      "break_stress_pa": 1575345.0,
+      "break_stretch": 4.0,
+      "elongation_at_break_percent": 300.0,
+      "work_of_fracture_j_m3": 2699912.329004129,
+      "work_of_fracture_numerical_error_j_m3": 87.38652578974143,
+      "hardening": {
+        "present": false,
+        "stretch_at_min_modulus": 3.3082700000000003,
+        "min_differential_modulus_pa": -339095.7446808578,
+        "final_differential_modulus_pa": 786569.1489361422,
+        "ratio_final_to_min": null
+      },
+      "flags": [
+        {
+          "code": "modulus_few_points",
+          "severity": "warning",
+          "message": "模量拟合只使用了 7 个点"
+        }
+      ]
+    },
+    "params": {
+      "modulus_stretch_range": [
+        1.0,
+        1.05
+      ],
+      "break_drop_fraction": 0.5,
+      "break_drop_window": 5,
+      "break_stretch": null,
+      "smoothing_window": null
+    },
+    "input_sha256": "5578c922764042d3ce9d2f4d0b16c54ff7be8acb16a7f977fb010be6b07613d6"
+  },
+  "dma": {
+    "result": {
+      "mode": "temperature_sweep",
+      "deformation_mode": "tension",
+      "loss_modulus_source": "measured",
+      "loss_factor_source": "measured",
+      "consistency_deviation": 1.084700745835037e-06,
+      "series": [
+        {
+          "frequency_hz": null,
+          "n_points": 171,
+          "x_min": 203.14999999999998,
+          "x_max": 373.15,
+          "tg": [
+            {
+              "definition": "tan_delta_peak",
+              "temperature_k": 258.15,
+              "frequency_hz": null,
+              "value": 1.25,
+              "prominence": 1.2,
+              "ambiguous": false,
+              "other_peaks_k": []
+            },
+            {
+              "definition": "loss_modulus_peak",
+              "temperature_k": 253.61724221397446,
+              "frequency_hz": null,
+              "value": 495602899.8305631,
+              "prominence": 444786400.0,
+              "ambiguous": false,
+              "other_peaks_k": []
+            },
+            {
+              "definition": "storage_modulus_onset",
+              "temperature_k": 251.45750833119558,
+              "frequency_hz": null,
+              "value": null,
+              "prominence": null,
+              "ambiguous": false,
+              "other_peaks_k": []
+            }
+          ],
+          "reference_values": [
+            {
+              "temperature_k": 298.15,
+              "frequency_hz": null,
+              "storage_modulus_pa": 2552780.0,
+              "loss_modulus_pa": 127639.0,
+              "loss_factor": 0.0500001
+            }
+          ]
+        }
+      ],
+      "spikes": [],
+      "flags": []
+    },
+    "params": {
+      "consistency_tolerance": 0.05,
+      "spike_threshold": 6.0,
+      "spike_window": 7,
+      "peak_prominence_fraction": 0.1,
+      "secondary_peak_ratio": 0.5,
+      "tg_window_k": null,
+      "onset_baseline_k": null,
+      "frequency_tolerance": 0.01,
+      "reference_temperatures_k": [
+        298.15
+      ],
+      "deformation_mode": "tension"
+    },
+    "input_sha256": "301b34760f07ca4cb4c0eee014737cf1bd5c30ff0271befcf8fc2fe10dd93af1"
+  }
+}

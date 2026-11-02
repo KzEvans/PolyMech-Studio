@@ -1,0 +1,3 @@
+d827f6965370946337b3fe50c0acba7a3bff6e5e12f9ee19755f4d5154bd89a8  PolyMech-Studio-0.1.0-windows-x64-setup.exe
+cc25155138502ad80f525113e094e32e727b88bec89810e9a7f5bdb2d7921671  PolyMech-Studio-0.1.0-licenses.zip
+8e104c6e79b21d683d7245a827b0fb8a018bf65a1d5ded14e559e0ed41dcdb5f  polymech-1c6b97f.zip

@@ -1,0 +1,144 @@
+{
+ "generated_at": "2026-10-26T02:39:03",
+ "data": "SYNTHETIC",
+ "quality": {
+  "records": 30,
+  "detection_rate": {
+   "possible_slip": 0.833,
+   "baseline_offset": 1.0,
+   "saturation": 0.467,
+   "signal_jump": 1.0,
+   "time_not_monotonic": 1.0,
+   "missing_values": 1.0,
+   "duplicate_rows": 1.0,
+   "unit_suspect": 1.0,
+   "break_not_found": 1.0
+  },
+  "clean_records_with_any_warning": 0,
+  "false_alarm_codes": {}
+ },
+ "batch": {
+  "tables": [
+   {
+    "table": "SYNTH_uniaxial_gbk_chinese.csv",
+    "rows": 405,
+    "read_ms": 26.9,
+    "mapping_ms": 1.7,
+    "normalise_quality_ms": 0.3,
+    "analysis_ms": 0.6,
+    "total_ms": 29.6
+   },
+   {
+    "table": "SYNTH_uniaxial_bom_kN.tsv",
+    "rows": 405,
+    "read_ms": 2.7,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.3,
+    "analysis_ms": 0.4,
+    "total_ms": 3.6
+   },
+   {
+    "table": "SYNTH_uniaxial_strain_percent.txt",
+    "rows": 405,
+    "read_ms": 1.6,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.3,
+    "analysis_ms": 0.4,
+    "total_ms": 2.5
+   },
+   {
+    "table": "SYNTH_uniaxial_decimal_comma.csv",
+    "rows": 405,
+    "read_ms": 2.4,
+    "mapping_ms": 0.1,
+    "normalise_quality_ms": 0.2,
+    "analysis_ms": 0.4,
+    "total_ms": 3.1
+   },
+   {
+    "table": "SYNTH_uniaxial_chinese_inline_units.csv",
+    "rows": 405,
+    "read_ms": 2.7,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.4,
+    "analysis_ms": 0.4,
+    "total_ms": 3.8
+   },
+   {
+    "table": "SYNTH_uniaxial_ambiguous_strain.csv",
+    "rows": 405,
+    "read_ms": 1.5,
+    "mapping_ms": 0.1,
+    "normalise_quality_ms": 0.2,
+    "analysis_ms": 0.4,
+    "total_ms": 2.2
+   },
+   {
+    "table": "SYNTH_uniaxial_multisheet.xlsx#Specimen A",
+    "rows": 405,
+    "read_ms": 133.4,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.4,
+    "analysis_ms": 0.6,
+    "total_ms": 134.6
+   },
+   {
+    "table": "SYNTH_uniaxial_multisheet.xlsx#Specimen B",
+    "rows": 405,
+    "read_ms": 9.9,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.3,
+    "analysis_ms": 0.4,
+    "total_ms": 10.8
+   },
+   {
+    "table": "SYNTH_cyclic_steps.csv",
+    "rows": 1491,
+    "read_ms": 4.1,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.3,
+    "analysis_ms": 0.3,
+    "total_ms": 4.9
+   },
+   {
+    "table": "SYNTH_uniaxial_injection_header.csv",
+    "rows": 405,
+    "read_ms": 1.8,
+    "mapping_ms": 0.2,
+    "normalise_quality_ms": 0.2,
+    "analysis_ms": 0.4,
+    "total_ms": 2.7
+   }
+  ],
+  "n": 10,
+  "median_total_ms": 3.7,
+  "max_total_ms": 134.6,
+  "sum_total_ms": 197.8
+ },
+ "hand_vs_program": [
+  {
+   "quantity": "neo-Hookean W_f (λ=4)",
+   "hand": 2700000.0,
+   "program": 2699999.9343750137,
+   "rel_error": 2.430555048502154e-08
+  },
+  {
+   "quantity": "linear E",
+   "hand": 1000000.0,
+   "program": 1000000.0,
+   "rel_error": 0.0
+  },
+  {
+   "quantity": "closed-loop W_hys",
+   "hand": 333333.3333333333,
+   "program": 333332.0000000001,
+   "rel_error": 3.9999999995925465e-06
+  },
+  {
+   "quantity": "pure-shear Gc (λc=2.7)",
+   "hand": 8140.761316872429,
+   "program": 8140.760580985248,
+   "rel_error": 9.039537607567518e-08
+  }
+ ]
+}

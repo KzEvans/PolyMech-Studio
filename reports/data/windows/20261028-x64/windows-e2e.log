@@ -1,0 +1,25 @@
+[WebServer] INFO:     Started server process [8600]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8775 (Press CTRL+C to quit)
+[WebServer] (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+[WebServer]   - `__dirname` (vite.config.ts:10:41). Use `import.meta.dirname` instead
+[WebServer] Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+Running 13 tests using 1 worker
+
+  ok  1 [chromium] › e2e\methods.spec.ts:39:3 › 其他分析页面（SYNTHETIC 数据） › 循环拉伸：分割循环、逐循环表、滞后能曲线 (20.3s)
+  ok  2 [chromium] › e2e\methods.spec.ts:51:3 › 其他分析页面（SYNTHETIC 数据） › 纯剪切：选择无裂纹样品、人工确认 λc、得到 Gc (19.6s)
+  ok  3 [chromium] › e2e\methods.spec.ts:71:3 › 其他分析页面（SYNTHETIC 数据） › 疲劳：稳态能量 → 裂纹扩展速率 (50.2s)
+  ok  4 [chromium] › e2e\methods.spec.ts:106:3 › 其他分析页面（SYNTHETIC 数据） › DMA：Tg 按定义列出、tan δ 曲线 (31.3s)
+  ok  5 [chromium] › e2e\methods.spec.ts:120:3 › 其他分析页面（SYNTHETIC 数据） › 数据修正：预览、保存、作用于新版本、停用 (18.9s)
+  ok  6 [chromium] › e2e\windows.spec.ts:6:3 › Fluent CSS preview: light (6.8s)
+  ok  7 [chromium] › e2e\windows.spec.ts:6:3 › Fluent CSS preview: dark (7.0s)
+  ok  8 [chromium] › e2e\workflow.spec.ts:21:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 导入 → 映射 → 检查 → 元数据 → 创建实验 (18.5s)
+  ok  9 [chromium] › e2e\workflow.spec.ts:47:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 计算 → 新版本 → 比较版本 (44.0s)
+  ok 10 [chromium] › e2e\workflow.spec.ts:91:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 绘图工作室 → 导出 PNG；报告页 (50.6s)
+  ok 11 [chromium] › e2e\workflow.spec.ts:149:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 使用说明：目录、搜索 (12.1s)
+  ok 12 [chromium] › e2e\workflow.spec.ts:162:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 设置：外观切换；键盘隐藏侧边栏；Origin 未连接时清楚降级 (13.5s)
+  ok 13 [chromium] › e2e\workflow.spec.ts:185:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 材料数据库：每次分析一个条目、性能对比图；删除分析版本 (43.9s)
+
+  13 passed (6.3m)

@@ -1,0 +1,236 @@
+{
+ "templates": {
+  "pm_line": {
+   "base": "line",
+   "layers": {
+    "0": {
+     "layer.x.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.y.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.x.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.y.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.x.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "layer.y.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "legend.background": {
+      "read": 0.0,
+      "expected": 0
+     }
+    }
+   },
+   "saved": true,
+   "reloaded_layers": 1,
+   "reloaded_style": {
+    "0": {
+     "layer.x.showAxes": 3.0,
+     "layer.y.showAxes": 3.0,
+     "layer.x.showLabels": 1.0,
+     "layer.y.showLabels": 1.0,
+     "layer.x.ticks": 5.0,
+     "layer.y.ticks": 5.0
+    },
+    "legend_background": 0.0
+   },
+   "check_png": true
+  },
+  "pm_scatter": {
+   "base": "scatter",
+   "layers": {
+    "0": {
+     "layer.x.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.y.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.x.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.y.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.x.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "layer.y.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "legend.background": {
+      "read": 0.0,
+      "expected": 0
+     }
+    }
+   },
+   "saved": true,
+   "reloaded_layers": 1,
+   "reloaded_style": {
+    "0": {
+     "layer.x.showAxes": 3.0,
+     "layer.y.showAxes": 3.0,
+     "layer.x.showLabels": 1.0,
+     "layer.y.showLabels": 1.0,
+     "layer.x.ticks": 5.0,
+     "layer.y.ticks": 5.0
+    },
+    "legend_background": 0.0
+   },
+   "check_png": true
+  },
+  "pm_linesymb": {
+   "base": "linesymb",
+   "layers": {
+    "0": {
+     "layer.x.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.y.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.x.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.y.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.x.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "layer.y.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "legend.background": {
+      "read": 0.0,
+      "expected": 0
+     }
+    }
+   },
+   "saved": true,
+   "reloaded_layers": 1,
+   "reloaded_style": {
+    "0": {
+     "layer.x.showAxes": 3.0,
+     "layer.y.showAxes": 3.0,
+     "layer.x.showLabels": 1.0,
+     "layer.y.showLabels": 1.0,
+     "layer.x.ticks": 5.0,
+     "layer.y.ticks": 5.0
+    },
+    "legend_background": 0.0
+   },
+   "check_png": true
+  },
+  "pm_doubley": {
+   "base": "doubley",
+   "layers": {
+    "0": {
+     "layer.x.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.y.showAxes": {
+      "set_ok": true,
+      "read": 3.0,
+      "expected": 3
+     },
+     "layer.x.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.y.showLabels": {
+      "set_ok": true,
+      "read": 1.0,
+      "expected": 1
+     },
+     "layer.x.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "layer.y.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     },
+     "legend.background": {
+      "read": 0.0,
+      "expected": 0
+     }
+    },
+    "1": {
+     "layer.y.ticks": {
+      "set_ok": true,
+      "read": 5.0,
+      "expected": 5
+     }
+    }
+   },
+   "saved": true,
+   "reloaded_layers": 2,
+   "reloaded_style": {
+    "0": {
+     "layer.x.showAxes": 3.0,
+     "layer.y.showAxes": 3.0,
+     "layer.x.showLabels": 1.0,
+     "layer.y.showLabels": 1.0,
+     "layer.x.ticks": 5.0,
+     "layer.y.ticks": 5.0
+    },
+    "1": {
+     "layer.y.ticks": 5.0
+    },
+    "legend_background": NaN
+   },
+   "check_png": true
+  }
+ },
+ "origin_version": 10.250212,
+ "owned_left": []
+}

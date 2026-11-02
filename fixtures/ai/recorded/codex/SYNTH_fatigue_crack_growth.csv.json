@@ -1,0 +1,25 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_fatigue_crack_growth.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "cycle_number",
+    "unit": null,
+    "confidence": 1.0,
+    "rationale": "列名为“循环次数”，数值从0开始、每次增加10000，明确表示循环计数；文件未标注单位。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "crack_length",
+    "unit": "mm",
+    "confidence": 1.0,
+    "rationale": "列名明确为“裂纹长度 (mm)”，数值从约15 mm逐渐增加，表示裂纹长度。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

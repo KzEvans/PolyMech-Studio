@@ -1,0 +1,53 @@
+{
+  "id": 2,
+  "analysis_run_id": 1,
+  "template_id": "pm_thesis_line",
+  "status": "done",
+  "requested_at": "2026-10-28T12:24:07.301091+00:00",
+  "finished_at": "2026-10-28T12:24:11.083891+00:00",
+  "opju_file": "SYNTHETIC_20261028-202406.opju",
+  "png_file": "SYNTHETIC_20261028-202406_FigA.png",
+  "error": "",
+  "verification": {
+    "opened": true,
+    "checks": [
+      {
+        "book": "DataA",
+        "sheet": "Data",
+        "rows": 405,
+        "expected_rows": 405,
+        "ok": true
+      },
+      {
+        "book": "Metadata",
+        "sheet": "Meta",
+        "rows": 9,
+        "expected_rows": 9,
+        "ok": true
+      },
+      {
+        "graph": "FigA",
+        "plots": 1,
+        "expected_plots": 1,
+        "ok": true
+      }
+    ],
+    "passed": true,
+    "export_errors": {},
+    "origin": {
+      "version": 10.250212,
+      "owned_pids": [
+        5552
+      ],
+      "owned_created": {
+        "5552": "134376638099347210"
+      }
+    }
+  },
+  "files": [
+    "SYNTHETIC_20261028-202406.opju",
+    "SYNTHETIC_20261028-202406_FigA.pdf",
+    "SYNTHETIC_20261028-202406_FigA.png",
+    "result.json"
+  ]
+}

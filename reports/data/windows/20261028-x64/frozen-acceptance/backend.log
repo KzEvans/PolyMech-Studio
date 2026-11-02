@@ -1,0 +1,206 @@
+2026-10-28 20:23:11,164 polymech.desktop INFO AI network settings configured: ['HTTPS_PROXY', 'HTTP_PROXY', 'NO_PROXY']
+2026-10-28 20:23:11,232 uvicorn.error INFO Started server process [6872]
+2026-10-28 20:23:11,232 uvicorn.error INFO Waiting for application startup.
+2026-10-28 20:23:11,262 alembic.runtime.migration INFO Context impl SQLiteImpl.
+2026-10-28 20:23:11,264 alembic.runtime.migration INFO Will assume non-transactional DDL.
+2026-10-28 20:23:11,283 alembic.runtime.migration INFO Context impl SQLiteImpl.
+2026-10-28 20:23:11,283 alembic.runtime.migration INFO Will assume non-transactional DDL.
+2026-10-28 20:23:11,289 alembic.runtime.migration INFO Running upgrade  -> aed95c8c3043, initial schema
+2026-10-28 20:23:11,347 alembic.runtime.migration INFO Running upgrade aed95c8c3043 -> b7c1d2e3f4a5, plot configuration kind (saved figure vs user style template)
+2026-10-28 20:23:11,347 alembic.runtime.migration INFO Running upgrade b7c1d2e3f4a5 -> c3d4e5f6a7b8, data correction active flag (deactivated corrections are kept as history)
+2026-10-28 20:23:11,385 uvicorn.error INFO Application startup complete.
+2026-10-28 20:23:11,438 polymech.desktop INFO serving C:\PolyMechBuild\src\apps\web\dist on 127.0.0.1:60412, data C:\PolyMechBuild\acceptance\SYNTHETIC-final-4-����\data
+2026-10-28 20:23:20,195 httpx INFO HTTP Request: GET http://127.0.0.1:60418/health "HTTP/1.1 200 OK"
+2026-10-28 20:23:20,925 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/capabilities "HTTP/1.1 200 OK"
+2026-10-28 20:23:24,637 fontTools.subset INFO maxp pruned
+2026-10-28 20:23:24,637 fontTools.subset INFO LTSH dropped
+2026-10-28 20:23:24,901 fontTools.subset INFO cmap pruned
+2026-10-28 20:23:24,904 fontTools.subset INFO kern dropped
+2026-10-28 20:23:24,907 fontTools.subset INFO post pruned
+2026-10-28 20:23:24,907 fontTools.subset INFO MERG dropped
+2026-10-28 20:23:24,907 fontTools.subset INFO meta dropped
+2026-10-28 20:23:24,909 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:24,909 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:25,004 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:25,051 fontTools.subset INFO Added gid0 to subset
+2026-10-28 20:23:25,051 fontTools.subset INFO Added first four glyphs to subset
+2026-10-28 20:23:25,051 fontTools.subset INFO Closing glyph list over 'GSUB': 6 glyphs before
+2026-10-28 20:23:25,051 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'space', 'uni5B9E', 'uni9A8C']
+2026-10-28 20:23:25,060 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 1559, 2991]
+2026-10-28 20:23:25,063 fontTools.subset INFO Closed glyph list over 'GSUB': 6 glyphs after
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'space', 'uni5B9E', 'uni9A8C']
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 1559, 2991]
+2026-10-28 20:23:25,063 fontTools.subset INFO Closing glyph list over 'glyf': 6 glyphs before
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'space', 'uni5B9E', 'uni9A8C']
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 1559, 2991]
+2026-10-28 20:23:25,063 fontTools.subset INFO Closed glyph list over 'glyf': 6 glyphs after
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'space', 'uni5B9E', 'uni9A8C']
+2026-10-28 20:23:25,063 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 1559, 2991]
+2026-10-28 20:23:25,063 fontTools.subset INFO Retaining 6 glyphs
+2026-10-28 20:23:25,066 fontTools.subset INFO head subsetting not needed
+2026-10-28 20:23:25,066 fontTools.subset INFO hhea subsetting not needed
+2026-10-28 20:23:25,066 fontTools.subset INFO maxp subsetting not needed
+2026-10-28 20:23:25,066 fontTools.subset INFO OS/2 subsetting not needed
+2026-10-28 20:23:25,082 fontTools.subset INFO hmtx subsetted
+2026-10-28 20:23:25,082 fontTools.subset INFO VDMX subsetting not needed
+2026-10-28 20:23:25,114 fontTools.subset INFO hdmx subsetted
+2026-10-28 20:23:25,164 fontTools.subset INFO cmap subsetted
+2026-10-28 20:23:25,164 fontTools.subset INFO fpgm subsetting not needed
+2026-10-28 20:23:25,164 fontTools.subset INFO prep subsetting not needed
+2026-10-28 20:23:25,164 fontTools.subset INFO cvt  subsetting not needed
+2026-10-28 20:23:25,166 fontTools.subset INFO loca subsetting not needed
+2026-10-28 20:23:25,166 fontTools.subset INFO post subsetted
+2026-10-28 20:23:25,166 fontTools.subset INFO gasp subsetting not needed
+2026-10-28 20:23:25,166 fontTools.subset INFO vhea subsetting not needed
+2026-10-28 20:23:25,186 fontTools.subset INFO vmtx subsetted
+2026-10-28 20:23:25,200 fontTools.subset INFO GDEF subsetted
+2026-10-28 20:23:25,200 fontTools.subset INFO GPOS subsetted
+2026-10-28 20:23:25,200 fontTools.subset INFO GSUB subsetted
+2026-10-28 20:23:25,200 fontTools.subset INFO name subsetting not needed
+2026-10-28 20:23:25,212 fontTools.subset INFO glyf subsetted
+2026-10-28 20:23:25,212 fontTools.subset INFO head pruned
+2026-10-28 20:23:25,212 fontTools.subset INFO OS/2 Unicode ranges pruned: [59]
+2026-10-28 20:23:25,212 fontTools.subset INFO OS/2 CodePage ranges pruned: [0]
+2026-10-28 20:23:25,212 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:25,212 fontTools.subset INFO GDEF pruned
+2026-10-28 20:23:25,212 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:25,212 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:25,212 fontTools.subset INFO name pruned
+2026-10-28 20:23:25,229 fontTools.subset INFO maxp pruned
+2026-10-28 20:23:25,229 fontTools.subset INFO LTSH dropped
+2026-10-28 20:23:25,229 fontTools.subset INFO cmap pruned
+2026-10-28 20:23:25,229 fontTools.subset INFO kern dropped
+2026-10-28 20:23:25,229 fontTools.subset INFO post pruned
+2026-10-28 20:23:25,229 fontTools.subset INFO PCLT dropped
+2026-10-28 20:23:25,229 fontTools.subset INFO JSTF dropped
+2026-10-28 20:23:25,229 fontTools.subset INFO meta dropped
+2026-10-28 20:23:25,244 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:25,294 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:25,310 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:25,310 fontTools.subset INFO Added gid0 to subset
+2026-10-28 20:23:25,310 fontTools.subset INFO Added first four glyphs to subset
+2026-10-28 20:23:25,310 fontTools.subset INFO Closing glyph list over 'GSUB': 37 glyphs before
+2026-10-28 20:23:25,310 fontTools.subset INFO Glyph names: ['.notdef', 'C', 'E', 'H', 'I', 'M', 'N', 'P', 'S', 'T', 'Y', 'a', 'c', 'e', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'h', 'i', 'l', 'm', 'n', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'zero']
+2026-10-28 20:23:25,310 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 11, 12, 17, 19, 20, 21, 22, 23, 24, 25, 27, 38, 40, 43, 44, 48, 49, 51, 54, 55, 60, 68, 70, 72, 75, 76, 79, 80, 81, 82, 85, 86, 87]
+2026-10-28 20:23:25,326 fontTools.subset INFO Closed glyph list over 'GSUB': 54 glyphs after
+2026-10-28 20:23:25,326 fontTools.subset INFO Glyph names: ['.notdef', 'C', 'E', 'H', 'I', 'M', 'N', 'P', 'S', 'T', 'Y', 'a', 'c', 'e', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'glyph03444', 'glyph03659', 'glyph03660', 'glyph03661', 'glyph03662', 'glyph03663', 'glyph03664', 'glyph03665', 'glyph03667', 'glyph03669', 'glyph03670', 'glyph03671', 'glyph03672', 'glyph03673', 'glyph03674', 'glyph03675', 'glyph03677', 'h', 'i', 'l', 'm', 'n', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'zero']
+2026-10-28 20:23:25,326 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 11, 12, 17, 19, 20, 21, 22, 23, 24, 25, 27, 38, 40, 43, 44, 48, 49, 51, 54, 55, 60, 68, 70, 72, 75, 76, 79, 80, 81, 82, 85, 86, 87, 3444, 3659, 3660, 3661, 3662, 3663, 3664, 3665, 3667, 3669, 3670, 3671, 3672, 3673, 3674, 3675, 3677]
+2026-10-28 20:23:25,341 fontTools.subset INFO Closing glyph list over 'glyf': 54 glyphs before
+2026-10-28 20:23:25,341 fontTools.subset INFO Glyph names: ['.notdef', 'C', 'E', 'H', 'I', 'M', 'N', 'P', 'S', 'T', 'Y', 'a', 'c', 'e', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'glyph03444', 'glyph03659', 'glyph03660', 'glyph03661', 'glyph03662', 'glyph03663', 'glyph03664', 'glyph03665', 'glyph03667', 'glyph03669', 'glyph03670', 'glyph03671', 'glyph03672', 'glyph03673', 'glyph03674', 'glyph03675', 'glyph03677', 'h', 'i', 'l', 'm', 'n', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'zero']
+2026-10-28 20:23:25,349 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 11, 12, 17, 19, 20, 21, 22, 23, 24, 25, 27, 38, 40, 43, 44, 48, 49, 51, 54, 55, 60, 68, 70, 72, 75, 76, 79, 80, 81, 82, 85, 86, 87, 3444, 3659, 3660, 3661, 3662, 3663, 3664, 3665, 3667, 3669, 3670, 3671, 3672, 3673, 3674, 3675, 3677]
+2026-10-28 20:23:25,358 fontTools.subset INFO Closed glyph list over 'glyf': 62 glyphs after
+2026-10-28 20:23:25,358 fontTools.subset INFO Glyph names: ['.notdef', 'C', 'E', 'H', 'I', 'M', 'N', 'P', 'S', 'T', 'Y', 'a', 'c', 'e', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'glyph03383', 'glyph03384', 'glyph03385', 'glyph03386', 'glyph03387', 'glyph03388', 'glyph03389', 'glyph03391', 'glyph03444', 'glyph03659', 'glyph03660', 'glyph03661', 'glyph03662', 'glyph03663', 'glyph03664', 'glyph03665', 'glyph03667', 'glyph03669', 'glyph03670', 'glyph03671', 'glyph03672', 'glyph03673', 'glyph03674', 'glyph03675', 'glyph03677', 'h', 'i', 'l', 'm', 'n', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 's', 'six', 'space', 't', 'three', 'two', 'zero']
+2026-10-28 20:23:25,358 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 11, 12, 17, 19, 20, 21, 22, 23, 24, 25, 27, 38, 40, 43, 44, 48, 49, 51, 54, 55, 60, 68, 70, 72, 75, 76, 79, 80, 81, 82, 85, 86, 87, 3383, 3384, 3385, 3386, 3387, 3388, 3389, 3391, 3444, 3659, 3660, 3661, 3662, 3663, 3664, 3665, 3667, 3669, 3670, 3671, 3672, 3673, 3674, 3675, 3677]
+2026-10-28 20:23:25,365 fontTools.subset INFO Retaining 62 glyphs
+2026-10-28 20:23:25,365 fontTools.subset INFO head subsetting not needed
+2026-10-28 20:23:25,365 fontTools.subset INFO hhea subsetting not needed
+2026-10-28 20:23:25,365 fontTools.subset INFO maxp subsetting not needed
+2026-10-28 20:23:25,370 fontTools.subset INFO OS/2 subsetting not needed
+2026-10-28 20:23:25,382 fontTools.subset INFO hmtx subsetted
+2026-10-28 20:23:25,382 fontTools.subset INFO VDMX subsetting not needed
+2026-10-28 20:23:25,396 fontTools.subset INFO hdmx subsetted
+2026-10-28 20:23:25,396 fontTools.subset INFO cmap subsetted
+2026-10-28 20:23:25,396 fontTools.subset INFO fpgm subsetting not needed
+2026-10-28 20:23:25,396 fontTools.subset INFO prep subsetting not needed
+2026-10-28 20:23:25,396 fontTools.subset INFO cvt  subsetting not needed
+2026-10-28 20:23:25,396 fontTools.subset INFO loca subsetting not needed
+2026-10-28 20:23:25,396 fontTools.subset INFO post subsetted
+2026-10-28 20:23:25,396 fontTools.subset INFO gasp subsetting not needed
+2026-10-28 20:23:25,412 fontTools.subset INFO GDEF subsetted
+2026-10-28 20:23:25,678 fontTools.subset INFO GPOS subsetted
+2026-10-28 20:23:25,695 fontTools.subset INFO GSUB subsetted
+2026-10-28 20:23:25,695 fontTools.subset INFO name subsetting not needed
+2026-10-28 20:23:25,695 fontTools.subset INFO glyf subsetted
+2026-10-28 20:23:25,695 fontTools.subset INFO head pruned
+2026-10-28 20:23:25,695 fontTools.subset INFO OS/2 Unicode ranges pruned: [0, 1]
+2026-10-28 20:23:25,695 fontTools.subset INFO OS/2 CodePage ranges pruned: [0]
+2026-10-28 20:23:25,695 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:25,695 fontTools.subset INFO GDEF pruned
+2026-10-28 20:23:25,695 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:25,695 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:25,712 fontTools.subset INFO name pruned
+2026-10-28 20:23:25,753 fontTools.subset INFO maxp pruned
+2026-10-28 20:23:25,753 fontTools.subset INFO LTSH dropped
+2026-10-28 20:23:25,753 fontTools.subset INFO cmap pruned
+2026-10-28 20:23:25,753 fontTools.subset INFO kern dropped
+2026-10-28 20:23:25,753 fontTools.subset INFO post pruned
+2026-10-28 20:23:25,753 fontTools.subset INFO PCLT dropped
+2026-10-28 20:23:25,753 fontTools.subset INFO JSTF dropped
+2026-10-28 20:23:25,753 fontTools.subset INFO meta dropped
+2026-10-28 20:23:25,804 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:25,829 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:25,862 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:25,876 fontTools.subset INFO Added gid0 to subset
+2026-10-28 20:23:25,876 fontTools.subset INFO Added first four glyphs to subset
+2026-10-28 20:23:25,876 fontTools.subset INFO Closing glyph list over 'GSUB': 6 glyphs before
+2026-10-28 20:23:25,876 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'lambda', 'sigma', 'space']
+2026-10-28 20:23:25,878 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 305, 540]
+2026-10-28 20:23:25,908 fontTools.subset INFO Closed glyph list over 'GSUB': 6 glyphs after
+2026-10-28 20:23:25,908 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'lambda', 'sigma', 'space']
+2026-10-28 20:23:25,908 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 305, 540]
+2026-10-28 20:23:25,910 fontTools.subset INFO Closing glyph list over 'glyf': 6 glyphs before
+2026-10-28 20:23:25,910 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'lambda', 'sigma', 'space']
+2026-10-28 20:23:25,910 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 305, 540]
+2026-10-28 20:23:25,910 fontTools.subset INFO Closed glyph list over 'glyf': 6 glyphs after
+2026-10-28 20:23:25,910 fontTools.subset INFO Glyph names: ['.notdef', 'glyph00001', 'glyph00002', 'lambda', 'sigma', 'space']
+2026-10-28 20:23:25,910 fontTools.subset INFO Glyph IDs:   [0, 1, 2, 3, 305, 540]
+2026-10-28 20:23:25,912 fontTools.subset INFO Retaining 6 glyphs
+2026-10-28 20:23:25,912 fontTools.subset INFO head subsetting not needed
+2026-10-28 20:23:25,912 fontTools.subset INFO hhea subsetting not needed
+2026-10-28 20:23:25,912 fontTools.subset INFO maxp subsetting not needed
+2026-10-28 20:23:25,912 fontTools.subset INFO OS/2 subsetting not needed
+2026-10-28 20:23:26,206 fontTools.subset INFO hmtx subsetted
+2026-10-28 20:23:26,208 fontTools.subset INFO VDMX subsetting not needed
+2026-10-28 20:23:26,210 fontTools.subset INFO hdmx subsetted
+2026-10-28 20:23:26,212 fontTools.subset INFO cmap subsetted
+2026-10-28 20:23:26,212 fontTools.subset INFO fpgm subsetting not needed
+2026-10-28 20:23:26,212 fontTools.subset INFO prep subsetting not needed
+2026-10-28 20:23:26,214 fontTools.subset INFO cvt  subsetting not needed
+2026-10-28 20:23:26,214 fontTools.subset INFO loca subsetting not needed
+2026-10-28 20:23:26,214 fontTools.subset INFO post subsetted
+2026-10-28 20:23:26,214 fontTools.subset INFO gasp subsetting not needed
+2026-10-28 20:23:26,223 fontTools.subset INFO GDEF subsetted
+2026-10-28 20:23:26,399 fontTools.subset INFO GPOS subsetted
+2026-10-28 20:23:26,425 fontTools.subset INFO GSUB subsetted
+2026-10-28 20:23:26,425 fontTools.subset INFO name subsetting not needed
+2026-10-28 20:23:26,429 fontTools.subset INFO glyf subsetted
+2026-10-28 20:23:26,429 fontTools.subset INFO head pruned
+2026-10-28 20:23:26,431 fontTools.subset INFO OS/2 Unicode ranges pruned: [7]
+2026-10-28 20:23:26,431 fontTools.subset INFO OS/2 CodePage ranges pruned: [0]
+2026-10-28 20:23:26,431 fontTools.subset INFO glyf pruned
+2026-10-28 20:23:26,431 fontTools.subset INFO GDEF pruned
+2026-10-28 20:23:26,433 fontTools.subset INFO GPOS pruned
+2026-10-28 20:23:26,433 fontTools.subset INFO GSUB pruned
+2026-10-28 20:23:26,439 fontTools.subset INFO name pruned
+2026-10-28 20:23:26,520 httpx INFO HTTP Request: GET http://127.0.0.1:60418/health "HTTP/1.1 200 OK"
+2026-10-28 20:23:26,558 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/capabilities "HTTP/1.1 200 OK"
+2026-10-28 20:23:26,658 httpx INFO HTTP Request: POST http://127.0.0.1:60418/v1/plot-jobs "HTTP/1.1 200 OK"
+2026-10-28 20:23:27,721 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:28,746 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:29,784 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:51,544 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:52,674 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:53,718 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:54,747 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:55,764 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:56,810 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:23:58,568 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:24:00,833 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:24:05,326 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:24:06,430 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387 "HTTP/1.1 200 OK"
+2026-10-28 20:24:06,504 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387/artifacts/SYN-DESKTOP_uniaxial_20261028_uniaxial-v1.opju "HTTP/1.1 200 OK"
+2026-10-28 20:24:06,525 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387/artifacts/SYN-DESKTOP_uniaxial_20261028_uniaxial-v1_Graph1.pdf "HTTP/1.1 200 OK"
+2026-10-28 20:24:06,551 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387/artifacts/SYN-DESKTOP_uniaxial_20261028_uniaxial-v1_Graph1.png "HTTP/1.1 200 OK"
+2026-10-28 20:24:06,561 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/bdef1a0b9aec4387/artifacts/result.json "HTTP/1.1 200 OK"
+2026-10-28 20:24:07,215 httpx INFO HTTP Request: POST http://127.0.0.1:60418/v1/plot-jobs "HTTP/1.1 200 OK"
+2026-10-28 20:24:10,012 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,050 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,054 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef/artifacts/SYNTHETIC_20261028-202406.opju "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,070 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef/artifacts/SYNTHETIC_20261028-202406_FigA.pdf "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,074 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef/artifacts/SYNTHETIC_20261028-202406_FigA.png "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,081 httpx INFO HTTP Request: GET http://127.0.0.1:60418/v1/plot-jobs/ab4e1a00781049ef/artifacts/result.json "HTTP/1.1 200 OK"
+2026-10-28 20:24:11,204 uvicorn.error INFO Shutting down
+2026-10-28 20:24:11,318 uvicorn.error INFO Waiting for application shutdown.
+2026-10-28 20:24:11,322 httpx INFO HTTP Request: POST http://127.0.0.1:60418/v1/shutdown "HTTP/1.1 200 OK"
+2026-10-28 20:24:40,503 uvicorn.error INFO Application shutdown complete.
+2026-10-28 20:24:40,519 uvicorn.error INFO Finished server process [6872]

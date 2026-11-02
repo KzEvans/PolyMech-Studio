@@ -1,0 +1,102 @@
+{
+ "made": {
+  "books": [
+   {
+    "name": "RawData",
+    "long_name": "Raw Data",
+    "sheets": [
+     "Raw"
+    ]
+   },
+   {
+    "name": "Processed",
+    "long_name": "Processed Data",
+    "sheets": [
+     "Curves"
+    ]
+   },
+   {
+    "name": "Summary",
+    "long_name": "Summary",
+    "sheets": [
+     "Results"
+    ]
+   },
+   {
+    "name": "Metadata",
+    "long_name": "Metadata",
+    "sheets": [
+     "Meta"
+    ]
+   }
+  ],
+  "graphs": [
+   {
+    "name": "Graph1",
+    "long_name": "名义应力–拉伸比",
+    "template": "pm_line",
+    "template_mode": "native",
+    "n_plots": 1
+   }
+  ],
+  "exports": {
+   "png": [
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.png"
+   ],
+   "pdf": [
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.pdf"
+   ],
+   "svg": [
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.svg"
+   ]
+  },
+  "export_errors": {},
+  "opju": "SYN-E2E_uniaxial_20261026_uniaxial-v1.opju"
+ },
+ "origin": {
+  "version": 10.250212,
+  "owned_pids": [
+   4160
+  ]
+ },
+ "verification": {
+  "opened": true,
+  "checks": [
+   {
+    "book": "RawData",
+    "sheet": "Raw",
+    "rows": 405,
+    "expected_rows": 405,
+    "ok": true
+   },
+   {
+    "book": "Processed",
+    "sheet": "Curves",
+    "rows": 405,
+    "expected_rows": 405,
+    "ok": true
+   },
+   {
+    "book": "Summary",
+    "sheet": "Results",
+    "rows": 5,
+    "expected_rows": 5,
+    "ok": true
+   },
+   {
+    "book": "Metadata",
+    "sheet": "Meta",
+    "rows": 16,
+    "expected_rows": 16,
+    "ok": true
+   },
+   {
+    "graph": "Graph1",
+    "plots": 1,
+    "expected_plots": 1,
+    "ok": true
+   }
+  ],
+  "passed": true
+ }
+}

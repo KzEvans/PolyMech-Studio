@@ -1,0 +1,72 @@
+2026-10-28 20:17:14,871 INFO uvicorn.error: Started server process [7240]
+2026-10-28 20:17:14,875 INFO uvicorn.error: Waiting for application startup.
+2026-10-28 20:17:14,881 INFO uvicorn.error: Application startup complete.
+2026-10-28 20:18:13,669 ERROR polymech_bridge: job 853c6f8b8f404612 failed:
+RuntimeError: Exception in OriginExt::ApplicationBase::LT_execute ==> ��Чָ��
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 282, in _run_job
+  File "polymech_bridge\worker.py", line 201, in _ensure_origin
+  File "originpro\utils.py", line 194, in set_show
+  File "originpro\utils.py", line 127, in set_lt_var
+  File "originpro\config.py", line 29, in __getattr__
+  File "OriginExt\OriginExt.py", line 2800, in LT_execute
+SystemError: <built-in function ApplicationBase_LT_execute> returned a result with an exception set
+
+2026-10-28 20:18:13,682 WARNING polymech_bridge: Origin save suppression raised:
+RuntimeError: Exception in OriginExt::ApplicationBase::LT_execute ==> ��Чָ��
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 282, in _run_job
+  File "polymech_bridge\worker.py", line 201, in _ensure_origin
+SystemError: <built-in function ApplicationBase_LT_execute> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: Exception in OriginExt::ApplicationBase::LT_execute ==> ��Чָ��
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 222, in close_origin
+  File "originpro\utils.py", line 91, in lt_exec
+SystemError: <built-in function ApplicationBase_LT_execute> returned a result with an exception set
+
+2026-10-28 20:18:13,691 WARNING polymech_bridge: Origin exit raised:
+RuntimeError: Exception in OriginExt::ApplicationBase::LT_execute ==> ��Чָ��
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 282, in _run_job
+  File "polymech_bridge\worker.py", line 201, in _ensure_origin
+SystemError: <built-in function ApplicationBase_LT_execute> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: Exception in OriginExt::ApplicationBase::Exit ==> ��Чָ��
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 228, in close_origin
+  File "originpro\utils.py", line 166, in exit
+SystemError: <built-in function ApplicationBase_Exit> returned a result with an exception set
+
+2026-10-28 20:18:13,877 INFO polymech_bridge: terminating owned Origin pid 10180
+2026-10-28 20:18:16,237 WARNING polymech_bridge: refusing to terminate pid 10180: not an Origin automation instance
+2026-10-28 20:18:50,220 INFO polymech_bridge: started Origin 10.250212 (pids [7952])
+2026-10-28 20:18:50,224 ERROR polymech_bridge: job c813ba405ee040f2 failed:
+Traceback (most recent call last):
+  File "polymech_bridge\worker.py", line 284, in _run_job
+RuntimeError: ������ȡ��
+
+2026-10-28 20:19:10,786 INFO polymech_bridge: terminating owned Origin pid 7952
+2026-10-28 20:19:14,456 INFO uvicorn.error: Shutting down
+2026-10-28 20:19:14,610 INFO uvicorn.error: Waiting for application shutdown.
+2026-10-28 20:19:14,617 INFO uvicorn.error: Application shutdown complete.
+2026-10-28 20:19:14,617 INFO uvicorn.error: Finished server process [7240]

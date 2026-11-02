@@ -1,0 +1,65 @@
+{
+  "failed_job": {
+    "id": "853c6f8b8f404612",
+    "status": "failed",
+    "message": "失败",
+    "created_at": "2026-10-28T12:17:16+00:00",
+    "finished_at": "2026-10-28T12:18:13+00:00",
+    "result": {},
+    "error": "SystemError: <built-in function ApplicationBase_LT_execute> returned a result with an exception set",
+    "artifacts": []
+  },
+  "failure_origin_pids": [
+    10180
+  ],
+  "cancelled_job": {
+    "id": "c813ba405ee040f2",
+    "status": "cancelled",
+    "message": "已取消",
+    "created_at": "2026-10-28T12:18:16+00:00",
+    "finished_at": "2026-10-28T12:18:50+00:00",
+    "result": {},
+    "error": "",
+    "artifacts": []
+  },
+  "cancelled_origin_pids": [
+    7952
+  ],
+  "interrupted_job_id": 1,
+  "crash_owned_processes": [
+    {
+      "Name": "polymech-studio.exe",
+      "ProcessId": 4308,
+      "ParentProcessId": 5032
+    },
+    {
+      "Name": "polymech-backend.exe",
+      "ProcessId": 9636,
+      "ParentProcessId": 4308
+    },
+    {
+      "Name": "polymech-bridge.exe",
+      "ProcessId": 9704,
+      "ParentProcessId": 9636
+    }
+  ],
+  "crash_origin_pids": [
+    5464
+  ],
+  "shell_crash_cleanup": true,
+  "restart_job_recovery": {
+    "id": 1,
+    "analysis_run_id": 1,
+    "template_id": "nominal_stress_stretch",
+    "status": "failed",
+    "requested_at": "2026-10-28T12:19:58.826910+00:00",
+    "finished_at": "2026-10-28T12:21:17.702245+00:00",
+    "opju_file": null,
+    "png_file": null,
+    "error": "上次应用退出中断了本机 Origin 导出，请重新导出。",
+    "verification": {},
+    "files": []
+  },
+  "origin_before": [],
+  "origin_after": []
+}

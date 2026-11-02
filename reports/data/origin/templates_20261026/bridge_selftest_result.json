@@ -1,0 +1,189 @@
+{
+ "id": "7c78b0217b26406b",
+ "status": "done",
+ "message": "完成",
+ "created_at": "2026-10-26T09:43:42+00:00",
+ "finished_at": "2026-10-26T09:44:03+00:00",
+ "result": {
+  "made": {
+   "books": [
+    {
+     "name": "RawData",
+     "long_name": "Raw Data (SYNTHETIC)",
+     "sheets": [
+      "Raw"
+     ]
+    },
+    {
+     "name": "Processed",
+     "long_name": "Processed Data",
+     "sheets": [
+      "Curves"
+     ]
+    },
+    {
+     "name": "Summary",
+     "long_name": "Summary",
+     "sheets": [
+      "Results"
+     ]
+    },
+    {
+     "name": "Metadata",
+     "long_name": "Metadata",
+     "sheets": [
+      "Meta"
+     ]
+    }
+   ],
+   "graphs": [
+    {
+     "name": "GStress",
+     "long_name": "Nominal stress vs stretch",
+     "template": "pm_line",
+     "template_mode": "native",
+     "n_plots": 2
+    },
+    {
+     "name": "GDouble",
+     "long_name": "Stress and true stress (double Y)",
+     "template": "pm_doubley",
+     "template_mode": "native",
+     "n_plots": 2
+    },
+    {
+     "name": "GFallback",
+     "long_name": "Fallback template check",
+     "template": "pm_not_installed",
+     "template_mode": "programmatic",
+     "n_plots": 1
+    }
+   ],
+   "exports": {
+    "png": [
+     "SYNTH-SELFTEST_uniaxial_v1_GStress.png",
+     "SYNTH-SELFTEST_uniaxial_v1_GDouble.png",
+     "SYNTH-SELFTEST_uniaxial_v1_GFallback.png"
+    ],
+    "pdf": [
+     "SYNTH-SELFTEST_uniaxial_v1_GStress.pdf",
+     "SYNTH-SELFTEST_uniaxial_v1_GDouble.pdf",
+     "SYNTH-SELFTEST_uniaxial_v1_GFallback.pdf"
+    ],
+    "svg": [
+     "SYNTH-SELFTEST_uniaxial_v1_GStress.svg",
+     "SYNTH-SELFTEST_uniaxial_v1_GDouble.svg",
+     "SYNTH-SELFTEST_uniaxial_v1_GFallback.svg"
+    ]
+   },
+   "export_errors": {},
+   "template_warnings": [
+    "未注册的模板 pm_not_installed，已改用内置 line 模板并以程序设置样式"
+   ],
+   "opju": "SYNTH-SELFTEST_uniaxial_v1.opju"
+  },
+  "origin": {
+   "version": 10.250212,
+   "owned_pids": [
+    1016
+   ]
+  },
+  "verification": {
+   "opened": true,
+   "checks": [
+    {
+     "book": "RawData",
+     "sheet": "Raw",
+     "rows": 300,
+     "expected_rows": 300,
+     "ok": true
+    },
+    {
+     "book": "Processed",
+     "sheet": "Curves",
+     "rows": 300,
+     "expected_rows": 300,
+     "ok": true
+    },
+    {
+     "book": "Summary",
+     "sheet": "Results",
+     "rows": 2,
+     "expected_rows": 2,
+     "ok": true
+    },
+    {
+     "book": "Metadata",
+     "sheet": "Meta",
+     "rows": 2,
+     "expected_rows": 2,
+     "ok": true
+    },
+    {
+     "graph": "GStress",
+     "plots": 2,
+     "expected_plots": 2,
+     "ok": true
+    },
+    {
+     "graph": "GDouble",
+     "plots": 2,
+     "expected_plots": 2,
+     "ok": true
+    },
+    {
+     "graph": "GFallback",
+     "plots": 1,
+     "expected_plots": 1,
+     "ok": true
+    }
+   ],
+   "passed": true
+  }
+ },
+ "error": "",
+ "artifacts": [
+  "SYNTH-SELFTEST_uniaxial_v1.opju",
+  "SYNTH-SELFTEST_uniaxial_v1_GDouble.pdf",
+  "SYNTH-SELFTEST_uniaxial_v1_GDouble.png",
+  "SYNTH-SELFTEST_uniaxial_v1_GDouble.svg",
+  "SYNTH-SELFTEST_uniaxial_v1_GFallback.pdf",
+  "SYNTH-SELFTEST_uniaxial_v1_GFallback.png",
+  "SYNTH-SELFTEST_uniaxial_v1_GFallback.svg",
+  "SYNTH-SELFTEST_uniaxial_v1_GStress.pdf",
+  "SYNTH-SELFTEST_uniaxial_v1_GStress.png",
+  "SYNTH-SELFTEST_uniaxial_v1_GStress.svg",
+  "result.json"
+ ],
+ "elapsed_s": 21.4,
+ "capabilities": {
+  "bridge_version": "0.1.0",
+  "python": "3.12.15",
+  "python_bits": 64,
+  "machine": "ARM64",
+  "originpro_importable": true,
+  "origin": {
+   "version": 10.250212,
+   "owned_pids": [
+    1016
+   ]
+  },
+  "exports": [
+   "png",
+   "pdf",
+   "svg"
+  ],
+  "templates": [
+   "pm_line",
+   "pm_scatter",
+   "pm_linesymb",
+   "pm_doubley",
+   "line",
+   "scatter",
+   "linesymb",
+   "doubley"
+  ],
+  "queue_length": 0
+ },
+ "owned_after_shutdown": []
+}

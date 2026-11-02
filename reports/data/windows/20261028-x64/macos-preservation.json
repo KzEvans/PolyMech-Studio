@@ -1,0 +1,7 @@
+{
+  "check": "read-only checksum of the existing macOS database",
+  "expected_sha256": "0ab48b25cba617ed3a4acca0161813b314c095ef63544bb4af60769eb1012977",
+  "actual_sha256": "0ab48b25cba617ed3a4acca0161813b314c095ef63544bb4af60769eb1012977",
+  "unchanged": true,
+  "macos_app_rebuilt_or_reinstalled_after_user_constraint": false
+}

@@ -1,0 +1,35 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_cyclic_steps.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "cycle_number",
+    "unit": null,
+    "confidence": 0.95,
+    "rationale": "列名为“Cycle”，数值是整数 1.0，前言写明为 5 次循环的循环试验，所以判为循环编号，无量纲。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 0.95,
+    "rationale": "列名为“Stretch ratio”，数值从 1.0 开始逐渐增大（1.00336、1.00671…），符合拉伸比的特征，不是从 0 开始的工程应变。拉伸比无量纲。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 0.95,
+    "rationale": "列名明确写着“Nominal stress (MPa)”，单位为 MPa。数值从 0 开始，随拉伸比增大而上升，量级合理。",
+    "ambiguities": [
+     "在小应变段，名义应力和真实应力的数值很接近，这里以列名为准判为名义应力。"
+    ]
+   }
+  ]
+ }
+}

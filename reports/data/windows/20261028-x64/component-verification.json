@@ -1,0 +1,52 @@
+{
+  "polymech-studio.exe": {
+    "build_bytes": 8073216,
+    "installed_bytes": 8073216,
+    "build_sha256": "d0983ee7b56991af11fef6dd4e4ff6b5aab34e0cd0a240e6dbe8ed88b301d35e",
+    "expected": "d0983ee7b56991af11fef6dd4e4ff6b5aab34e0cd0a240e6dbe8ed88b301d35e",
+    "installed_sha256": "a6a9fbf7c8a880ed600d834ba8eb8752a47441301b47b330b1d44cc86f5bcc28",
+    "difference_count": 3,
+    "offsets": [
+      6420007,
+      6420008,
+      6420009
+    ],
+    "bytes_at_differences": [
+      [
+        6420007,
+        "5950455f5641525f554e4b000000000000a8e7614001000000930000",
+        "5950455f5641525f4e5353000000000000a8e7614001000000930000"
+      ],
+      [
+        6420008,
+        "50455f5641525f554e4b000000000000a8e761400100000093000000",
+        "50455f5641525f4e5353000000000000a8e761400100000093000000"
+      ],
+      [
+        6420009,
+        "455f5641525f554e4b000000000000a8e76140010000009300000000",
+        "455f5641525f4e5353000000000000a8e76140010000009300000000"
+      ]
+    ]
+  },
+  "backend\\polymech-backend.exe": {
+    "build_bytes": 31549483,
+    "installed_bytes": 31549483,
+    "build_sha256": "80a5cab28d20c7b4ff2cfed3d7fa4e32849a67da6c773c253ec55b7ca4c12443",
+    "expected": "80a5cab28d20c7b4ff2cfed3d7fa4e32849a67da6c773c253ec55b7ca4c12443",
+    "installed_sha256": "80a5cab28d20c7b4ff2cfed3d7fa4e32849a67da6c773c253ec55b7ca4c12443",
+    "difference_count": 0,
+    "offsets": [],
+    "bytes_at_differences": []
+  },
+  "bridge\\polymech-bridge.exe": {
+    "build_bytes": 8393775,
+    "installed_bytes": 8393775,
+    "build_sha256": "d128897f59a9da4bad1266f29191316aac6f2f201939f180c4e630f11e740e73",
+    "expected": "d128897f59a9da4bad1266f29191316aac6f2f201939f180c4e630f11e740e73",
+    "installed_sha256": "d128897f59a9da4bad1266f29191316aac6f2f201939f180c4e630f11e740e73",
+    "difference_count": 0,
+    "offsets": [],
+    "bytes_at_differences": []
+  }
+}

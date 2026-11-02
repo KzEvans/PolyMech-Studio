@@ -1,0 +1,49 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_uniaxial_chinese_inline_units.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "time",
+    "unit": "s",
+    "confidence": 0.97,
+    "rationale": "列名“试验时间/s”，单位为s，数值从0开始均匀递增",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "force",
+    "unit": "mN",
+    "confidence": 0.93,
+    "rationale": "列名“负荷/mN”即载荷（力），单位mN；单轴拉伸试验，不是剥离试验，所以归为force而非peel_force",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "displacement",
+    "unit": "μm",
+    "confidence": 0.95,
+    "rationale": "列名“横梁位移/μm”，单位μm，数值从0开始线性增加",
+    "ambiguities": []
+   },
+   {
+    "column_index": 3,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 0.92,
+    "rationale": "列名“工程应力（MPa）”，工程应力就是名义应力；用力除以应力，得到的截面积恒为约2 mm²，说明用的是初始截面积，符合名义应力的定义",
+    "ambiguities": []
+   },
+   {
+    "column_index": 4,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 0.93,
+    "rationale": "列名“拉伸比”，数值从1.0开始，是无量纲的拉伸比，不是工程应变；按位移推算，标距约为20 mm，数据一致",
+    "ambiguities": []
+   }
+  ]
+ }
+}

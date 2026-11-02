@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+# Node
+node_modules/
+dist/
+.vite/
+playwright-report/
+test-results/
+# Local data (never commit user raw data, DBs, keys)
+/data/
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+# Origin outputs and large intermediates
+*.opju
+*.opj
+*.parquet
+!fixtures/**/*.parquet
+# OS
+.DS_Store
+.autogen.sqlite*
+/.e2e-data/
+# Desktop app build output
+/build/
+apps/desktop/src-tauri/target/

@@ -1,0 +1,32 @@
+{
+  "source_commit": "2e6e872",
+  "windows": [
+    "11",
+    "10.0.26300",
+    "SP0",
+    "Multiprocessor Free"
+  ],
+  "native_machine": "ARM64",
+  "python": "3.12.15",
+  "python_platform": "win-amd64",
+  "python_bits": 64,
+  "versions": {
+    "PyInstaller": "6.22.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "originpro": "1.1.15",
+    "OriginExt": "1.2.6",
+    "pywin32": "312",
+    "rust": "rustc 1.99.1 (58cf8f9c3 2026-10-13)\nbinary: rustc\ncommit-hash: 58cf8f9c35b355199727627d07ae34a4e2846d67\ncommit-date: 2026-10-13\nhost: x86_64-pc-windows-msvc\nrelease: 1.99.1\nLLVM version: 23.1.1",
+    "node": "v24.22.1",
+    "uv": "uv 0.13.6 (329bf9448 2026-10-26 x86_64-pc-windows-msvc)"
+  },
+  "pnpm": "12.14.0",
+  "msvc": "14.44.35207",
+  "sdk": "10.0.26100",
+  "nsis": "3.13",
+  "origin": "OriginPro 2025b 10.250212",
+  "webview2": "155.0.4283.62"
+}

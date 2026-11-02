@@ -1,0 +1,31 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_uniaxial_ambiguous_strain.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 0.7,
+    "rationale": "列名为“Strain”，但数值从 1.0 开始单调增加（1.0→1.02005），这是拉伸比的特征。工程应变应从 0 开始，所以判为拉伸比（无量纲）。",
+    "ambiguities": [
+     "列名写的是“Strain”，与数值特征（从 1 开始）矛盾。也可能是工程应变加了 1 的偏移，或者列名标错了，建议用户确认。",
+     "如果是工程应变，数值 1.0 就表示 100% 应变，但第二列对应应力为 0，这与初始状态不符，因此更支持拉伸比。"
+    ]
+   },
+   {
+    "column_index": 1,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 0.6,
+    "rationale": "列名为“Stress (MPa)”，单位明确是 MPa。应力从 0 开始，随拉伸比增大而增大。单轴拉伸数据通常记录名义（工程）应力，因此判为名义应力。",
+    "ambiguities": [
+     "列名没有说明是名义应力还是真实应力。小变形范围内两者几乎相等，无法通过数值区分。",
+     "如果数据经过真实应力换算（σ_true = σ_nom·λ），应改为 true_stress。"
+    ]
+   }
+  ]
+ }
+}

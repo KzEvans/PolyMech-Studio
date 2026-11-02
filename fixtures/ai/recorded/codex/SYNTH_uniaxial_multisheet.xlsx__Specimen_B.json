@@ -1,0 +1,33 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_uniaxial_multisheet.xlsx#Specimen B",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "time",
+    "unit": "s",
+    "confidence": 1.0,
+    "rationale": "列名明确为 Time，单位为 s，样本数值从 0 递增。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "force",
+    "unit": "N",
+    "confidence": 1.0,
+    "rationale": "列名明确为 Force，单位为 N，未标示为剥离力。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "displacement",
+    "unit": "mm",
+    "confidence": 1.0,
+    "rationale": "列名明确为 Displacement，单位为 mm，样本数值从 0 递增。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

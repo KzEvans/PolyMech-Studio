@@ -1,0 +1,38 @@
+353 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+353 INFO: Python: 3.12.15
+421 INFO: Platform: Windows-11-10.0.26300-SP0
+421 INFO: Python environment: C:\PolyMechBuild\venv
+156752 WARNING: Hidden import "scipy.special._cdflib" not found!
+157981 WARNING: Hidden import "pysqlite2" not found!
+157981 WARNING: Hidden import "MySQLdb" not found!
+180409 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_substrait.dll'.
+180411 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180413 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180413 WARNING: Library not found: could not resolve 'WINHTTP.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180413 WARNING: Library not found: could not resolve 'USERENV.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180416 WARNING: Library not found: could not resolve 'WININET.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180416 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180416 WARNING: Library not found: could not resolve 'ncrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+180416 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+180416 WARNING: Library not found: could not resolve 'WSOCK32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+180416 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+180416 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+180416 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_compute.dll'.
+180416 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'WINHTTP.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'webservices.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+180416 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+180416 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+180472 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_socket.pyd'.
+180490 WARNING: Library not found: could not resolve 'PROPSYS.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_wmi.pyd'.
+180797 WARNING: Library not found: could not resolve 'PSAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\PIL\\_imagingtk.cp312-win_amd64.pyd'.
+180940 WARNING: Library not found: could not resolve 'pdh.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32pdh.pyd'.
+180946 WARNING: Library not found: could not resolve 'ntdll.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+180946 WARNING: Library not found: could not resolve 'bcryptprimitives.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+180948 WARNING: Library not found: could not resolve 'ntdll.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\jiter\\jiter.cp312-win_amd64.pyd'.
+180948 WARNING: Library not found: could not resolve 'bcryptprimitives.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\jiter\\jiter.cp312-win_amd64.pyd'.
+180950 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.
+180950 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.

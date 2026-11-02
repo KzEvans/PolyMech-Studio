@@ -1,0 +1,9 @@
+{
+  "all_passed": true,
+  "payload_sha256": {
+    "polymech-studio.exe": "a6a9fbf7c8a880ed600d834ba8eb8752a47441301b47b330b1d44cc86f5bcc28",
+    "backend\\polymech-backend.exe": "80a5cab28d20c7b4ff2cfed3d7fa4e32849a67da6c773c253ec55b7ca4c12443",
+    "bridge\\polymech-bridge.exe": "d128897f59a9da4bad1266f29191316aac6f2f201939f180c4e630f11e740e73"
+  },
+  "desktop_marker": "Only UNK -> NSS (3 bytes), matching locked tauri-utils 2.10.2"
+}

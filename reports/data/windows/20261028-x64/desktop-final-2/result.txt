@@ -1,0 +1,2 @@
+download ok C:\PolyMechBuild\acceptance\desktop-final-2\downloads\selftest_link (1).json
+download ok C:\PolyMechBuild\acceptance\desktop-final-2\downloads\selftest_blob (1).txt

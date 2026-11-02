@@ -1,0 +1,68 @@
+{
+    "python": "3.12.15 (main, Oct 21 2026, 17:48:33) [MSC v.1944 64 bit (AMD64)]",
+    "machine": "ARM64",
+    "session_id": 1,
+    "steps": {
+        "launch_s": 14.49,
+        "build_save_s": 2.7,
+        "reopen_s": 15.2
+    },
+    "origin_pids_before": [
+        1608,
+        3584
+    ],
+    "origin_version": 10.250212,
+    "origin_build": "",
+    "owned_pids": [
+        3644
+    ],
+    "graph_name": "Graph1",
+    "png_saved_path": "C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\work\\phase0\\SYNTH-NH_uniaxial_20261025_v0.png",
+    "png_bytes": 26266,
+    "save_ok": true,
+    "opju_bytes": 56212,
+    "exit1": {
+        "graceful": false,
+        "wait_s": 30.6,
+        "force_killed": [
+            3644
+        ]
+    },
+    "leftover_after_first_exit": [],
+    "open_ok": true,
+    "reopen_books": [
+        [
+            "Book1",
+            "Raw Data"
+        ],
+        [
+            "Book2",
+            "Processed Data"
+        ],
+        [
+            "Metadata",
+            ""
+        ]
+    ],
+    "reopen_graphs": [
+        [
+            "Graph1",
+            "Nominal stress vs stretch"
+        ]
+    ],
+    "reopen_rows": 401,
+    "reopen_max_abs_err": 0.0,
+    "reopen_data_ok": true,
+    "reopen_graph_plots": [
+        1
+    ],
+    "exit2": {
+        "graceful": false,
+        "wait_s": 30.4,
+        "force_killed": [
+            1688
+        ]
+    },
+    "leftover_after_second_exit": [],
+    "passed": true
+}

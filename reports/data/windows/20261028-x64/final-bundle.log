@@ -1,0 +1,20 @@
+$ tauri bundle --target x86_64-pc-windows-msvc --bundles nsis
+        Info Patching C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\polymech-studio.exe with bundle type information: nsis
+        Info Target: x64
+     Running makensis to produce C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\bundle\nsis\PolyMech Studio_0.1.0_x64-setup.exe
+    Finished 1 bundle at:
+        C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\bundle\nsis\PolyMech Studio_0.1.0_x64-setup.exe (304.55 MiB)
+System.Management.Automation.RemoteException
+{
+    "source_commit":  "1c6b97f17e214b5b72c93edec6e58d7fcb56b05a",
+    "source_archive_sha256":  "8e104c6e79b21d683d7245a827b0fb8a018bf65a1d5ded14e559e0ed41dcdb5f",
+    "name":  "PolyMech Studio_0.1.0_x64-setup.exe",
+    "bytes":  319342308,
+    "sha256":  "d827f6965370946337b3fe50c0acba7a3bff6e5e12f9ee19755f4d5154bd89a8",
+    "bundle_seconds":  232.70338999999998,
+    "components":  {
+                       "polymech-studio.exe":  "d0983ee7b56991af11fef6dd4e4ff6b5aab34e0cd0a240e6dbe8ed88b301d35e",
+                       "backend\\polymech-backend.exe":  "80a5cab28d20c7b4ff2cfed3d7fa4e32849a67da6c773c253ec55b7ca4c12443",
+                       "bridge\\polymech-bridge.exe":  "d128897f59a9da4bad1266f29191316aac6f2f201939f180c4e630f11e740e73"
+                   }
+}

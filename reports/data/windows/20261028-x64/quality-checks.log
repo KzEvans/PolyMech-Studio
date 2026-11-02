@@ -1,0 +1,32 @@
+COMMAND ['C:\\PolyMechBuild\\venv\\Scripts\\python.exe', '-m', 'ruff', 'check', '.']
+All checks passed!
+COMMAND ['C:\\PolyMechBuild\\venv\\Scripts\\python.exe', '-m', 'ruff', 'format', '--check', '.']
+129 files already formatted
+COMMAND ['C:\\PolyMechBuild\\venv\\Scripts\\python.exe', '-m', 'mypy']
+Success: no issues found in 71 source files
+COMMAND ['C:\\Users\\kzevans\\AppData\\Local\\PolyMechBuild\\tools\\node-v24.22.1-win-x64\\node.exe', 'C:\\PolyMechBuild\\src\\apps\\web\\node_modules\\vitest\\vitest.mjs', 'run', '--maxWorkers=1', '--root', 'C:\\PolyMechBuild\\src\\apps\\web']
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vite.config" without a file extension (apps/web/vitest.config.ts:2:24). Add the file extension
+  - `__dirname` (apps/web/vite.config.ts:10:41). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.0.5 C:/PolyMechBuild/src/apps/web
+
+ ✓ src/components/common.test.tsx (2 tests) 437ms
+   ✓ KeyValue (1)
+     ✓ never breaks between a number and its unit, only before separators 361ms
+ ✓ src/lib/platform.test.ts (2 tests) 29ms
+ ✓ src/components/confirm.test.tsx (2 tests) 1930ms
+   ✓ puts the Windows action on the left while initially focusing Cancel 1563ms
+   ✓ keeps the macOS button order 362ms
+ ✓ src/lib/units.test.ts (3 tests) 11ms
+
+ Test Files  4 passed (4)
+      Tests  9 passed (9)
+   Start at  19:31:05
+   Duration  48.43s (environment 49%, setup 33%, import 9%, tests 5%, transform 3%)
+
+Environment  jsdom was created 4 times · 22.59s total, 49% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

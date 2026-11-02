@@ -1,0 +1,41 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_dma.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "temperature",
+    "unit": "°C",
+    "confidence": 0.98,
+    "rationale": "列名为 Temperature (°C)，数值从 -70 递增 1 °C，符合 DMA 温度扫描。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "storage_modulus",
+    "unit": "MPa",
+    "confidence": 0.98,
+    "rationale": "列名为 Storage Modulus (MPa)，数值约 1000 MPa，与低温玻璃态储能模量相符。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "loss_modulus",
+    "unit": "MPa",
+    "confidence": 0.98,
+    "rationale": "列名为 Loss Modulus (MPa)，数值约 50 MPa，约为储能模量的 0.05 倍，与 Tan Delta 一致。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 3,
+    "quantity": "loss_factor",
+    "unit": null,
+    "confidence": 0.97,
+    "rationale": "列名为 Tan Delta，即损耗因子 E''/E'，无量纲；数值 0.05 等于损耗模量除以储能模量。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

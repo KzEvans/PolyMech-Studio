@@ -1,0 +1,51 @@
+pnpm -C apps/web e2e
+$ playwright test
+[WebServer] INFO:     Started server process [50223]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8775 (Press CTRL+C to quit)
+[WebServer] (node:50232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+[WebServer]   - `__dirname` (vite.config.ts:10:41). Use `import.meta.dirname` instead
+[WebServer] Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+Running 22 tests using 1 worker
+
+(node:50233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [webkit] › e2e/methods.spec.ts:39:3 › 其他分析页面（SYNTHETIC 数据） › 循环拉伸：分割循环、逐循环表、滞后能曲线 (4.7s)
+  ✓   2 [webkit] › e2e/methods.spec.ts:51:3 › 其他分析页面（SYNTHETIC 数据） › 纯剪切：选择无裂纹样品、人工确认 λc、得到 Gc (2.5s)
+  ✓   3 [webkit] › e2e/methods.spec.ts:71:3 › 其他分析页面（SYNTHETIC 数据） › 疲劳：稳态能量 → 裂纹扩展速率 (3.1s)
+  ✓   4 [webkit] › e2e/methods.spec.ts:106:3 › 其他分析页面（SYNTHETIC 数据） › DMA：Tg 按定义列出、tan δ 曲线 (2.4s)
+  ✓   5 [webkit] › e2e/methods.spec.ts:120:3 › 其他分析页面（SYNTHETIC 数据） › 数据修正：预览、保存、作用于新版本、停用 (2.5s)
+  ✓   6 [webkit] › e2e/workflow.spec.ts:21:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 导入 → 映射 → 检查 → 元数据 → 创建实验 (2.4s)
+  ✓   7 [webkit] › e2e/workflow.spec.ts:47:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 计算 → 新版本 → 比较版本 (4.9s)
+[WebServer] findfont: Failed to find font weight bold for PingFang SC, now using 600.
+[WebServer] findfont: Failed to find font weight bold for Heiti SC, now using 400.
+[WebServer] findfont: Failed to find font weight bold for Arial Unicode MS, now using 400.
+[WebServer] findfont: Failed to find font weight bold for PingFang SC, now using 600.
+[WebServer] findfont: Failed to find font weight bold for Heiti SC, now using 400.
+[WebServer] findfont: Failed to find font weight bold for Arial Unicode MS, now using 400.
+[WebServer] findfont: Failed to find font weight bold for PingFang SC, now using 600.
+[WebServer] findfont: Failed to find font weight bold for Heiti SC, now using 400.
+[WebServer] findfont: Failed to find font weight bold for Arial Unicode MS, now using 400.
+  ✓   8 [webkit] › e2e/workflow.spec.ts:91:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 绘图工作室 → 导出 PNG；报告页 (7.5s)
+  ✓   9 [webkit] › e2e/workflow.spec.ts:149:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 使用说明：目录、搜索 (1.6s)
+  ✓  10 [webkit] › e2e/workflow.spec.ts:162:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 设置：外观切换；键盘隐藏侧边栏；Origin 未连接时清楚降级 (1.8s)
+  ✓  11 [webkit] › e2e/workflow.spec.ts:181:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 材料数据库：每次分析一个条目、性能对比图；删除分析版本 (6.5s)
+(node:51258) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [chromium] › e2e/methods.spec.ts:39:3 › 其他分析页面（SYNTHETIC 数据） › 循环拉伸：分割循环、逐循环表、滞后能曲线 (4.1s)
+  ✓  13 [chromium] › e2e/methods.spec.ts:51:3 › 其他分析页面（SYNTHETIC 数据） › 纯剪切：选择无裂纹样品、人工确认 λc、得到 Gc (3.8s)
+  ✓  14 [chromium] › e2e/methods.spec.ts:71:3 › 其他分析页面（SYNTHETIC 数据） › 疲劳：稳态能量 → 裂纹扩展速率 (4.6s)
+  ✓  15 [chromium] › e2e/methods.spec.ts:106:3 › 其他分析页面（SYNTHETIC 数据） › DMA：Tg 按定义列出、tan δ 曲线 (3.1s)
+  ✓  16 [chromium] › e2e/methods.spec.ts:120:3 › 其他分析页面（SYNTHETIC 数据） › 数据修正：预览、保存、作用于新版本、停用 (3.2s)
+  ✓  17 [chromium] › e2e/workflow.spec.ts:21:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 导入 → 映射 → 检查 → 元数据 → 创建实验 (3.6s)
+  ✓  18 [chromium] › e2e/workflow.spec.ts:47:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 计算 → 新版本 → 比较版本 (7.3s)
+  ✓  19 [chromium] › e2e/workflow.spec.ts:91:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 绘图工作室 → 导出 PNG；报告页 (8.9s)
+  ✓  20 [chromium] › e2e/workflow.spec.ts:149:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 使用说明：目录、搜索 (1.6s)
+  ✓  21 [chromium] › e2e/workflow.spec.ts:162:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 设置：外观切换；键盘隐藏侧边栏；Origin 未连接时清楚降级 (1.8s)
+  ✓  22 [chromium] › e2e/workflow.spec.ts:181:3 › 单轴拉伸主流程（SYNTHETIC 数据） › 材料数据库：每次分析一个条目、性能对比图；删除分析版本 (8.8s)
+
+  22 passed (1.7m)

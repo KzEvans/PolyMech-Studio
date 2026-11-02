@@ -1,0 +1,75 @@
+{
+ "made": {
+  "books": [
+   {
+    "name": "DataA",
+    "long_name": "面板 (a) 数据",
+    "sheets": [
+     "Data"
+    ]
+   },
+   {
+    "name": "Metadata",
+    "long_name": "Metadata",
+    "sheets": [
+     "Meta"
+    ]
+   }
+  ],
+  "graphs": [
+   {
+    "name": "FigA",
+    "long_name": "SYNTHETIC 工作室 (a)",
+    "template": "pm_thesis_line",
+    "template_mode": "native",
+    "style": "thesis",
+    "n_plots": 1
+   }
+  ],
+  "exports": {
+   "png": [
+    "SYNTHETIC_20261028-202406_FigA.png"
+   ],
+   "pdf": [
+    "SYNTHETIC_20261028-202406_FigA.pdf"
+   ]
+  },
+  "export_errors": {},
+  "opju": "SYNTHETIC_20261028-202406.opju"
+ },
+ "origin": {
+  "version": 10.250212,
+  "owned_pids": [
+   5552
+  ],
+  "owned_created": {
+   "5552": "134376638099347210"
+  }
+ },
+ "verification": {
+  "opened": true,
+  "checks": [
+   {
+    "book": "DataA",
+    "sheet": "Data",
+    "rows": 405,
+    "expected_rows": 405,
+    "ok": true
+   },
+   {
+    "book": "Metadata",
+    "sheet": "Meta",
+    "rows": 9,
+    "expected_rows": 9,
+    "ok": true
+   },
+   {
+    "graph": "FigA",
+    "plots": 1,
+    "expected_plots": 1,
+    "ok": true
+   }
+  ],
+  "passed": true
+ }
+}

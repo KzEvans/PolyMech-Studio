@@ -1,0 +1,81 @@
+[project]
+name = "polymech-studio"
+version = "0.1.0"
+description = "PolyMech Studio — Polymer Mechanics Research Platform (workspace root)"
+requires-python = ">=3.12"
+dependencies = [
+    "polymech-mechanics",
+    "polymech-dataio",
+    "polymech-plotting",
+    "polymech-database",
+    "polymech-ai",
+    "polymech-api",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+    "hypothesis>=6.120",
+    "ruff>=0.9",
+    "mypy>=1.14",
+    "pandas-stubs>=2.2",
+    "pyinstaller>=6.11",
+    "xlwt>=1.3",
+]
+windows-bridge = [
+    "originpro==1.1.15 ; sys_platform == 'win32'",
+    "pywin32>=308 ; sys_platform == 'win32'",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["packages/*", "apps/api"]
+
+[tool.uv.sources]
+polymech-mechanics = { workspace = true }
+polymech-dataio = { workspace = true }
+polymech-plotting = { workspace = true }
+polymech-database = { workspace = true }
+polymech-ai = { workspace = true }
+polymech-api = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["packages", "apps/api", "tests", "bridge/windows-origin/tests"]
+addopts = "-q --import-mode=importlib"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["apps/web", "bridge/windows-origin/*probe*.py", "build", "target"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RUF", "NPY", "PT"]
+ignore = [
+    "RUF001", "RUF002", "RUF003",  # Chinese text and Greek symbols are intentional
+    "E501",  # line length is handled by `ruff format`; long Chinese messages stay unsplit
+    "PT018",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["PT012"]  # transaction tests need several statements inside pytest.raises
+
+[tool.ruff.lint.isort]
+known-first-party = ["polymech_mechanics", "polymech_dataio", "polymech_plotting", "polymech_database", "polymech_ai", "polymech_api"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+mypy_path = ["packages/mechanics/src", "packages/dataio/src", "packages/plotting/src", "packages/database/src", "packages/ai/src", "apps/api/src"]
+files = ["packages", "apps/api/src"]
+exclude = ["/tests/"]
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["scipy.*", "pint.*", "pyarrow.*", "openpyxl.*", "xlrd.*", "xlwt.*", "matplotlib.*", "charset_normalizer.*"]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+branch = true

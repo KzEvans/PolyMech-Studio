@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PolyMech Studio</title>
+    <style>
+      :root { color-scheme: light dark; --bg: #f5f5f7; --fg: #1d1d1f; --fg2: #5e5e63; --danger: #c4241b; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #1e1e20; --fg: #f2f2f4; --fg2: #a1a1a6; --danger: #ff6b5e; } }
+      html, body { height: 100%; margin: 0; }
+      body { display: grid; place-items: center; background: var(--bg); color: var(--fg);
+        font: 13px -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; -webkit-user-select: none; cursor: default; }
+      main { text-align: center; max-width: 30rem; padding: 2rem; }
+      h1 { font-size: 22px; font-weight: 600; margin: 0 0 .75rem; }
+      p { color: var(--fg2); margin: .35rem 0; line-height: 1.5; }
+      .err { color: var(--danger); white-space: pre-wrap; text-align: left; }
+      progress { width: 12rem; margin-top: 1rem; }
+      @media (prefers-reduced-motion: reduce) { progress { display: none; } }
+    </style>
+  </head>
+  <body>
+    <main role="status" aria-live="polite">
+      <h1>PolyMech Studio</h1>
+      <p id="msg">正在启动本地计算服务…</p>
+      <p id="hint">首次启动需要建立字体缓存，可能需要约一分钟；之后几秒内即可打开。</p>
+      <progress aria-label="启动中"></progress>
+    </main>
+    <script>
+      // The shell calls this (via webview.eval) if the backend fails to start.
+      window.polymechStartupFailed = (text) => {
+        document.querySelector("progress").remove();
+        document.getElementById("hint").textContent = "";
+        const m = document.getElementById("msg");
+        m.className = "err";
+        m.textContent = text;
+      };
+    </script>
+  </body>
+</html>

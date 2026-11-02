@@ -1,0 +1,130 @@
+Resolved 87 packages in 10ms
+Checked 84 packages in 93ms
+3.12.15 win-amd64 64
+✓ Lockfile passes supply-chain policies (verified 1h ago)
+Lockfile is up to date, resolution step is skipped
+Done in 193ms using pnpm v12.14.0
+✓ Lockfile passes supply-chain policies (verified 1h ago)
+Lockfile is up to date, resolution step is skipped
+Done in 39ms using pnpm v12.14.0
+$ tsc -b && vite build
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:10:41). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 2621 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                          0.46 kB │ gzip:     0.30 kB
+dist/assets/index-BlnE6lbq.css          74.79 kB │ gzip:    12.81 kB
+dist/assets/download-Ctazdt59.js         0.26 kB │ gzip:     0.21 kB
+dist/assets/arrow-up-D-IvRkb8.js         0.32 kB │ gzip:     0.22 kB
+dist/assets/trash-B9OnjUR3.js            0.37 kB │ gzip:     0.24 kB
+dist/assets/file-up-BziCJ5uw.js          0.38 kB │ gzip:     0.26 kB
+dist/assets/input-CtFBpFG4.js            0.85 kB │ gzip:     0.43 kB
+dist/assets/confirm-T8No1arO.js          0.87 kB │ gzip:     0.54 kB
+dist/assets/badge-DIm9uYhj.js            1.40 kB │ gzip:     0.66 kB
+dist/assets/units-BnlbCmZN.js            1.43 kB │ gzip:     0.94 kB
+dist/assets/origin-CL75SNdz.js           2.02 kB │ gzip:     1.18 kB
+dist/assets/Reports-DZSnkP07.js          2.35 kB │ gzip:     1.25 kB
+dist/assets/Dashboard-C23QKkW1.js        3.24 kB │ gzip:     1.37 kB
+dist/assets/button-C96xYIfm.js           3.38 kB │ gzip:     1.26 kB
+dist/assets/dist-CChng2rT.js             4.17 kB │ gzip:     1.84 kB
+dist/assets/switch-CcL7_qLV.js           5.03 kB │ gzip:     1.99 kB
+dist/assets/Experiments-BBDPT8Tu.js      5.36 kB │ gzip:     2.53 kB
+dist/assets/dialog-DrXTp07r.js           7.11 kB │ gzip:     2.66 kB
+dist/assets/Settings-ySbqZZrh.js        10.26 kB │ gzip:     3.45 kB
+dist/assets/compare-B-2PmSyL.js         13.86 kB │ gzip:     5.19 kB
+dist/assets/Materials-Bqc8zGNN.js       14.40 kB │ gzip:     5.69 kB
+dist/assets/es2015-D35T-Q4C.js          15.40 kB │ gzip:     5.84 kB
+dist/assets/Import-vk18HZyw.js          22.18 kB │ gzip:     8.09 kB
+dist/assets/Help-BZAsJnt9.js            23.44 kB │ gzip:     9.68 kB
+dist/assets/label-DjEQ0SPi.js           32.66 kB │ gzip:    10.76 kB
+dist/assets/PlotStudio-CV933Kv1.js      42.87 kB │ gzip:    14.24 kB
+dist/assets/Analysis-uXrLNx54.js        59.95 kB │ gzip:    19.26 kB
+dist/assets/index-BzsGyaFm.js          627.36 kB │ gzip:   199.99 kB
+dist/assets/Chart-DNf5gaBN.js        4,656.05 kB │ gzip: 1,424.05 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 14.42s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 1.9s of this 14.3s build (14%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin @tailwindcss/vite:generate:build transform (11%, 1.6s, 1 call)
+Additional callback time came from callbacks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+324 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+324 INFO: Python: 3.12.15
+411 INFO: Platform: Windows-11-10.0.26300-SP0
+411 INFO: Python environment: C:\PolyMechBuild\venv
+104495 WARNING: Hidden import "scipy.special._cdflib" not found!
+105338 WARNING: Hidden import "pysqlite2" not found!
+105338 WARNING: Hidden import "MySQLdb" not found!
+121387 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_compute.dll'.
+121390 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_substrait.dll'.
+121397 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+121397 WARNING: Library not found: could not resolve 'WSOCK32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+121399 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+121399 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_flight.dll'.
+121428 WARNING: Library not found: could not resolve 'ncrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121428 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121428 WARNING: Library not found: could not resolve 'WINHTTP.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121428 WARNING: Library not found: could not resolve 'USERENV.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121428 WARNING: Library not found: could not resolve 'WININET.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121428 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121448 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow_s3.dll'.
+121448 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'WINHTTP.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'dbghelp.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'webservices.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pyarrow\\arrow.dll'.
+121448 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+121464 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+121464 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_socket.pyd'.
+121492 WARNING: Library not found: could not resolve 'PROPSYS.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_wmi.pyd'.
+121696 WARNING: Library not found: could not resolve 'PSAPI.DLL', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\PIL\\_imagingtk.cp312-win_amd64.pyd'.
+121733 WARNING: Library not found: could not resolve 'pdh.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32pdh.pyd'.
+121739 WARNING: Library not found: could not resolve 'bcryptprimitives.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+121739 WARNING: Library not found: could not resolve 'ntdll.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+121739 WARNING: Library not found: could not resolve 'bcryptprimitives.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\jiter\\jiter.cp312-win_amd64.pyd'.
+121741 WARNING: Library not found: could not resolve 'ntdll.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\jiter\\jiter.cp312-win_amd64.pyd'.
+121743 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.
+121743 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.
+261 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+261 INFO: Python: 3.12.15
+316 INFO: Platform: Windows-11-10.0.26300-SP0
+316 INFO: Python environment: C:\PolyMechBuild\venv
+29206 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+29206 WARNING: Library not found: could not resolve 'bcrypt.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\python312.dll'.
+29222 WARNING: Library not found: could not resolve 'OLEACC.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pywin32_system32\\pythoncom312.dll'.
+29222 WARNING: Library not found: could not resolve 'urlmon.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pywin32_system32\\pythoncom312.dll'.
+29249 WARNING: Library not found: could not resolve 'IPHLPAPI.DLL', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_socket.pyd'.
+29256 WARNING: Library not found: could not resolve 'PROPSYS.dll', dependency of 'C:\\Users\\kzevans\\AppData\\Local\\PolyMechBridge\\python\\cpython-3.12-windows-x86_64-none\\DLLs\\_wmi.pyd'.
+29260 WARNING: Library not found: could not resolve 'Secur32.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.
+29262 WARNING: Library not found: could not resolve 'VERSION.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32api.pyd'.
+29276 WARNING: Library not found: could not resolve 'pdh.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\win32\\win32pdh.pyd'.
+29290 WARNING: Library not found: could not resolve 'ntdll.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+29294 WARNING: Library not found: could not resolve 'bcryptprimitives.dll', dependency of 'C:\\PolyMechBuild\\venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd'.
+$ tauri build --target x86_64-pc-windows-msvc --bundles nsis
+        Info Looking up installed tauri packages to check mismatched versions...
+   Compiling polymech-studio v0.1.0 (C:\PolyMechBuild\src\apps\desktop\src-tauri)
+    Finished `release` profile [optimized] target(s) in 3m 41s
+       Built application at: C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\polymech-studio.exe
+        Info Patching C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\polymech-studio.exe with bundle type information: nsis
+        Info Target: x64
+     Running makensis to produce C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\bundle\nsis\PolyMech Studio_0.1.0_x64-setup.exe
+    Finished 1 bundle at:
+        C:\PolyMechBuild\src\apps\desktop\src-tauri\target\x86_64-pc-windows-msvc\release\bundle\nsis\PolyMech Studio_0.1.0_x64-setup.exe (304.55 MiB)
+System.Management.Automation.RemoteException
+BUILD_PASSED elapsed=940.3125909 seconds
+{
+    "name":  "PolyMech Studio_0.1.0_x64-setup.exe",
+    "bytes":  319347601,
+    "sha256":  "c55ff0ee5b62da313681bf7c00fee5bb24bccfcd5f6ca525d5e30d6314b34987"
+}

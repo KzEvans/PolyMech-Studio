@@ -1,0 +1,29 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_uniaxial_strain_percent.txt",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "engineering_strain",
+    "unit": "%",
+    "confidence": 0.9,
+    "rationale": "列名为 Strain(%)，单位为 %；数值从 0 开始，按约 1% 递增，符合工程应变的特征（拉伸比应从 1 开始）。",
+    "ambiguities": [
+     "列名只写了 Strain，没有注明是工程应变还是真实应变；数值从 0 开始，所以按工程应变处理。"
+    ]
+   },
+   {
+    "column_index": 1,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 0.65,
+    "rationale": "列名为 Stress(MPa)，单位为 MPa；这是单轴拉伸数据，与工程应变同时给出时一般是名义（工程）应力。数值约 0–0.046 MPa，初始斜率约 1.2 MPa，像弹性体。",
+    "ambiguities": [
+     "列名只写了 Stress，没有说明是名义应力还是真实应力。在小应变（≤4%）下两者差别很小，无法靠数值区分，需要用户确认。"
+    ]
+   }
+  ]
+ }
+}

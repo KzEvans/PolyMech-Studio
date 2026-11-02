@@ -1,0 +1,22 @@
+{
+  "existing_origin_pids": [],
+  "matplotlib_png_size": [
+    3216,
+    2280
+  ],
+  "analysis": {
+    "job_id": 1,
+    "verification_passed": true
+  },
+  "plot-studio": {
+    "job_id": 2,
+    "verification_passed": true
+  },
+  "origin_pids_after_exit": [],
+  "owned_origin_pids": [
+    5552
+  ],
+  "new_origin_remaining": [],
+  "owned_origin_gone": true,
+  "existing_origin_preserved": true
+}

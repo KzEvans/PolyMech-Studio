@@ -1,0 +1,67 @@
+{
+  "id": 1,
+  "analysis_run_id": 1,
+  "template_id": "nominal_stress_stretch",
+  "status": "done",
+  "requested_at": "2026-10-28T12:23:26.668118+00:00",
+  "finished_at": "2026-10-28T12:24:06.564168+00:00",
+  "opju_file": "SYN-DESKTOP_uniaxial_20261028_uniaxial-v1.opju",
+  "png_file": "SYN-DESKTOP_uniaxial_20261028_uniaxial-v1_Graph1.png",
+  "error": "",
+  "verification": {
+    "opened": true,
+    "checks": [
+      {
+        "book": "RawData",
+        "sheet": "Raw",
+        "rows": 405,
+        "expected_rows": 405,
+        "ok": true
+      },
+      {
+        "book": "Processed",
+        "sheet": "Curves",
+        "rows": 405,
+        "expected_rows": 405,
+        "ok": true
+      },
+      {
+        "book": "Summary",
+        "sheet": "Results",
+        "rows": 5,
+        "expected_rows": 5,
+        "ok": true
+      },
+      {
+        "book": "Metadata",
+        "sheet": "Meta",
+        "rows": 16,
+        "expected_rows": 16,
+        "ok": true
+      },
+      {
+        "graph": "Graph1",
+        "plots": 1,
+        "expected_plots": 1,
+        "ok": true
+      }
+    ],
+    "passed": true,
+    "export_errors": {},
+    "origin": {
+      "version": 10.250212,
+      "owned_pids": [
+        5552
+      ],
+      "owned_created": {
+        "5552": "134376638099347210"
+      }
+    }
+  },
+  "files": [
+    "SYN-DESKTOP_uniaxial_20261028_uniaxial-v1.opju",
+    "SYN-DESKTOP_uniaxial_20261028_uniaxial-v1_Graph1.pdf",
+    "SYN-DESKTOP_uniaxial_20261028_uniaxial-v1_Graph1.png",
+    "result.json"
+  ]
+}

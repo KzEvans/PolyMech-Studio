@@ -1,0 +1,10 @@
+{
+  "closed_host_ports": [
+    18766,
+    18767,
+    18768,
+    18769
+  ],
+  "vm_network_restored": true,
+  "macos_application_replaced": false
+}

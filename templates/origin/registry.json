@@ -1,0 +1,222 @@
+{
+ "format": "polymech-origin-templates/1",
+ "generator": "bridge/windows-origin/make_templates.py",
+ "templates": [
+  {
+   "id": "pm_line",
+   "name": "PolyMech 线图",
+   "file": "pm_line.otpu",
+   "sha256": "4c67596827112bb7ad2c51ecf8e26f95aae36314adcd8ef5f960f96d7bc9e797",
+   "version": "1.0",
+   "base_builtin": "line",
+   "chart_types": [
+    "line"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-26",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "frame": "closed (axes on all four sides)",
+    "ticks": "major + minor, inward (layer.x/y.ticks=5)",
+    "tick_labels": "bottom and left only",
+    "axis_title_font": "Arial",
+    "legend": "no frame (legend.background=0)",
+    "grid": "none",
+    "series_colors": "set per plot by the job (Okabe–Ito)"
+   },
+   "intended_for": "名义/真实应力–拉伸比、微分模量、DMA 曲线等连续曲线"
+  },
+  {
+   "id": "pm_scatter",
+   "name": "PolyMech 散点图",
+   "file": "pm_scatter.otpu",
+   "sha256": "370fd838a93bda867973f6e02be7bfb400c7714facee3f590f55fd9ef27fce72",
+   "version": "1.0",
+   "base_builtin": "scatter",
+   "chart_types": [
+    "scatter"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-26",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "frame": "closed (axes on all four sides)",
+    "ticks": "major + minor, inward (layer.x/y.ticks=5)",
+    "tick_labels": "bottom and left only",
+    "axis_title_font": "Arial",
+    "legend": "no frame (legend.background=0)",
+    "grid": "none",
+    "series_colors": "set per plot by the job (Okabe–Ito)"
+   },
+   "intended_for": "疲劳 dc/dN–G、材料性能对比"
+  },
+  {
+   "id": "pm_linesymb",
+   "name": "PolyMech 线+符号图",
+   "file": "pm_linesymb.otpu",
+   "sha256": "6c4937313fcfe370da7a9d2ba210ffdcdf75e9767e23a30a0c861213030f52fe",
+   "version": "1.0",
+   "base_builtin": "linesymb",
+   "chart_types": [
+    "line+symbol"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-26",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "frame": "closed (axes on all four sides)",
+    "ticks": "major + minor, inward (layer.x/y.ticks=5)",
+    "tick_labels": "bottom and left only",
+    "axis_title_font": "Arial",
+    "legend": "no frame (legend.background=0)",
+    "grid": "none",
+    "series_colors": "set per plot by the job (Okabe–Ito)"
+   },
+   "intended_for": "滞后能/残余应变–循环次数、裂纹长度–循环次数"
+  },
+  {
+   "id": "pm_doubley",
+   "name": "PolyMech 双 Y 轴图",
+   "file": "pm_doubley.otpu",
+   "sha256": "5c3a70588353bd2f5bace38c2258c66bd78eddb62051106419a6d352ed135929",
+   "version": "1.0",
+   "base_builtin": "doubley",
+   "chart_types": [
+    "line",
+    "double-y"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-26",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1",
+    "y2": ">=1"
+   },
+   "style": {
+    "frame": "closed (axes on all four sides)",
+    "ticks": "major + minor, inward (layer.x/y.ticks=5)",
+    "tick_labels": "bottom and left only",
+    "axis_title_font": "Arial",
+    "legend": "no frame (legend.background=0)",
+    "grid": "none",
+    "series_colors": "set per plot by the job (Okabe–Ito)"
+   },
+   "intended_for": "储能模量（左）与 tan δ（右）–温度"
+  },
+  {
+   "id": "pm_thesis_line",
+   "name": "PolyMech 论文线图",
+   "file": "pm_thesis_line.otpu",
+   "sha256": "4e7fd2df40b9a1f8d5b1d97eba23f91029c5d4c803cf59dbcdbca964f2267101",
+   "version": "1.0",
+   "base_builtin": "line",
+   "chart_types": [
+    "line"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-28",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "page": "Origin default 10.72 × 7.6 in (3216 × 2280 px at 300 dpi), as in the user's thesis figures",
+    "font": "Times New Roman, bold; tick labels 20 pt, axis titles 28 pt, legend 22 pt (faces re-applied by the bridge after loading: Origin reloads template tick-label fonts as the preference default)",
+    "axes": "2.2 pt, black, closed frame; ticks out on bottom/left, in on top/right; major 9 pt, minor 4 pt, one minor between majors",
+    "legend": "no frame; entries bold and live (%(n))",
+    "series_colors": "set per plot by the job (thesis palette by series count)"
+   },
+   "intended_for": "名义/真实应力–拉伸比、微分模量、DMA 曲线等连续曲线（论文图风格）",
+   "style_id": "thesis"
+  },
+  {
+   "id": "pm_thesis_scatter",
+   "name": "PolyMech 论文散点图",
+   "file": "pm_thesis_scatter.otpu",
+   "sha256": "5c760037dd6bf7f1fa14c5f30b214123659dad0fe6c93db760301e0d959d56df",
+   "version": "1.0",
+   "base_builtin": "scatter",
+   "chart_types": [
+    "scatter"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-28",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "page": "Origin default 10.72 × 7.6 in (3216 × 2280 px at 300 dpi), as in the user's thesis figures",
+    "font": "Times New Roman, bold; tick labels 20 pt, axis titles 28 pt, legend 22 pt (faces re-applied by the bridge after loading: Origin reloads template tick-label fonts as the preference default)",
+    "axes": "2.2 pt, black, closed frame; ticks out on bottom/left, in on top/right; major 9 pt, minor 4 pt, one minor between majors",
+    "legend": "no frame; entries bold and live (%(n))",
+    "series_colors": "set per plot by the job (thesis palette by series count)"
+   },
+   "intended_for": "散点数据、材料性能对比（论文图风格）",
+   "style_id": "thesis"
+  },
+  {
+   "id": "pm_thesis_linesymb",
+   "name": "PolyMech 论文点线图",
+   "file": "pm_thesis_linesymb.otpu",
+   "sha256": "41e8cc827e34c29369cbda345e7cc472f7983bc5d9ced3abdb6e555d5f556b9b",
+   "version": "1.0",
+   "base_builtin": "linesymb",
+   "chart_types": [
+    "linesymbol"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-28",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1"
+   },
+   "style": {
+    "page": "Origin default 10.72 × 7.6 in (3216 × 2280 px at 300 dpi), as in the user's thesis figures",
+    "font": "Times New Roman, bold; tick labels 20 pt, axis titles 28 pt, legend 22 pt (faces re-applied by the bridge after loading: Origin reloads template tick-label fonts as the preference default)",
+    "axes": "2.2 pt, black, closed frame; ticks out on bottom/left, in on top/right; major 9 pt, minor 4 pt, one minor between majors",
+    "legend": "no frame; entries bold and live (%(n))",
+    "series_colors": "set per plot by the job (thesis palette by series count)"
+   },
+   "intended_for": "随循环次数变化的量等点线图（论文图风格）",
+   "style_id": "thesis"
+  },
+  {
+   "id": "pm_thesis_doubley",
+   "name": "PolyMech 论文双 Y 轴图",
+   "file": "pm_thesis_doubley.otpu",
+   "sha256": "f155e55854d04a074001b832cac68a18d6c73aabed34e7d0d157a659347688da",
+   "version": "1.0",
+   "base_builtin": "doubley",
+   "chart_types": [
+    "line",
+    "doubley"
+   ],
+   "min_origin_version": "10.25",
+   "verified_on": "OriginPro 2025b (10.250212), Windows 11 ARM x64 emulation, 2026-10-28",
+   "required_columns": {
+    "x": 1,
+    "y": ">=1",
+    "y2": ">=1"
+   },
+   "style": {
+    "page": "Origin default 10.72 × 7.6 in (3216 × 2280 px at 300 dpi), as in the user's thesis figures",
+    "font": "Times New Roman, bold; tick labels 20 pt, axis titles 28 pt, legend 22 pt (faces re-applied by the bridge after loading: Origin reloads template tick-label fonts as the preference default)",
+    "axes": "2.2 pt, black, closed frame; ticks out on bottom/left, in on top/right; major 9 pt, minor 4 pt, one minor between majors",
+    "legend": "no frame; entries bold and live (%(n))",
+    "series_colors": "set per plot by the job (thesis palette by series count)"
+   },
+   "intended_for": "DMA 储能模量与损耗因子等双 Y 轴图（论文图风格）",
+   "style_id": "thesis"
+  }
+ ]
+}

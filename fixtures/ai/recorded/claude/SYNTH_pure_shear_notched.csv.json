@@ -1,0 +1,37 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_pure_shear_notched.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "time",
+    "unit": "s",
+    "confidence": 0.97,
+    "rationale": "列名为 Time (s)，单位是 s，数值从 0 开始均匀递增（间隔约 0.1 s），符合时间列的特征。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "displacement",
+    "unit": "mm",
+    "confidence": 0.93,
+    "rationale": "列名为 Displacement (mm)，单位是 mm，数值从 0 开始随时间线性增加（约 0.5 mm/s），是夹头位移。",
+    "ambiguities": [
+     "这是带缺口纯剪切试样的数据，该列是夹头位移，不是裂纹扩展距离或裂纹长度。"
+    ]
+   },
+   {
+    "column_index": 2,
+    "quantity": "force",
+    "unit": "N",
+    "confidence": 0.92,
+    "rationale": "列名为 Force (N)，单位是 N，数值从 0 开始随位移近似线性增加，是纯剪切拉伸时的载荷。",
+    "ambiguities": [
+     "这是纯剪切拉伸试验，不是剥离试验，所以归为 force，而不是 peel_force。"
+    ]
+   }
+  ]
+ }
+}

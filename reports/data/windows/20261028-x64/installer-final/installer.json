@@ -1,0 +1,20 @@
+﻿{
+    "same_version_upgrade":  true,
+    "uninstall":  true,
+    "reinstall":  true,
+    "data_files_preserved":  9,
+    "preserved_hashes":  {
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\export.txt":  "A753D0B7966D66EF36521E4AB2E826A0373344FDD29574639B6DF12AEFEC0AC3",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\raw.csv":  "A753D0B7966D66EF36521E4AB2E826A0373344FDD29574639B6DF12AEFEC0AC3",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\settings.json":  "A753D0B7966D66EF36521E4AB2E826A0373344FDD29574639B6DF12AEFEC0AC3",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\curves\\exp1_uniaxial_v1_53d4741a5e1e.parquet":  "18AC343ADE51B062AAEB15D02E0F9BB078E50963DE71DBEDA14083C2CE4BE1CB",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\curves\\exp2_dma_v1_79d882d883f6.parquet":  "C77B5FE72F78240FD18EE4DFC434516E1957C2C5D3E9C18DDD5A0786AD89533F",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\polymech.sqlite":  "B972947023DD21E3A6E4666344C92DF31A3BB3A681C4F651DF1A2C70A988C0DF",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\raw\\62\\62cef1ea11b045126d2bc68b76c22307dd61f999ccffd0e80fee9efe0956ec2a.csv":  "62CEF1EA11B045126D2BC68B76C22307DD61F999CCFFD0E80FEE9EFE0956EC2A",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\raw\\94\\944f0fe6e4e5cbc0b3b06aee143d8a092fa335a3732a74430914cc0e0d303584.csv":  "944F0FE6E4E5CBC0B3B06AEE143D8A092FA335A3732A74430914CC0E0D303584",
+                             "\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad\\synthetic-data\\settings.json":  "D4E498EE2B2F05B19064DCAB405CDAA1B211C7C3A0E1B1DD8E1507CC0DD67403"
+                         },
+    "synthetic_canary":  "C:\\Users\\kzevans\\AppData\\Roaming\\PolyMechStudio\\SYNTHETIC-installer-d56ffd8bf6d14b6198d3b760882f17ad",
+    "installed_directory":  "C:\\Users\\kzevans\\AppData\\Local\\Programs\\PolyMech Studio",
+    "installer_sha256":  "62b421c48357e08ee2b36f176fccf430b081bb5f0c3e9da38f9d5ec72090dfe4"
+}

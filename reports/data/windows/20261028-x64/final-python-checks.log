@@ -1,0 +1,15 @@
+COMMAND ['-m', 'ruff', 'check', '.']
+All checks passed!
+COMMAND ['-m', 'ruff', 'format', '--check', '.']
+166 files already formatted
+COMMAND ['-m', 'mypy']
+Success: no issues found in 71 source files
+COMMAND ['-m', 'pytest', '-ra']
+........................................................................ [ 23%]
+........................................................................ [ 46%]
+........................................................................ [ 69%]
+....................................s................................... [ 92%]
+........................                                                 [100%]
+=========================== short test summary info ===========================
+SKIPPED [1] apps\api\tests\test_desktop.py:58: macOS login-shell environment
+311 passed, 1 skipped in 83.14s (0:01:23)

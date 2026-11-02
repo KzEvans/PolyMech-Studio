@@ -1,0 +1,41 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_dma.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "temperature",
+    "unit": "°C",
+    "confidence": 1.0,
+    "rationale": "列名明确为温度，单位为 °C，样本值为 -70 至 -66。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "storage_modulus",
+    "unit": "MPa",
+    "confidence": 1.0,
+    "rationale": "列名明确为储能模量，单位为 MPa，样本值约为 1002。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "loss_modulus",
+    "unit": "MPa",
+    "confidence": 1.0,
+    "rationale": "列名明确为损耗模量，单位为 MPa，样本值约为 50。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 3,
+    "quantity": "loss_factor",
+    "unit": "1",
+    "confidence": 1.0,
+    "rationale": "Tan Delta 为无量纲损耗因子；样本值 0.05 与损耗模量除以储能模量的比值一致，表示比值而非百分数。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

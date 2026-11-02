@@ -1,0 +1,27 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_pure_shear_unnotched.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "displacement",
+    "unit": "mm",
+    "confidence": 0.95,
+    "rationale": "列名为 Displacement (mm)，单位明确为 mm，数值从 0 开始单调递增（0–0.2 mm），符合纯剪切试验中夹具位移。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "force",
+    "unit": "N",
+    "confidence": 0.93,
+    "rationale": "列名为 Force (N)，单位明确为 N，数值从 0 开始随位移近似线性增加，符合未开口纯剪切试样的拉伸力。",
+    "ambiguities": [
+     "文件为纯剪切（pure shear）试验，不是剥离试验，因此归为 force 而非 peel_force。"
+    ]
+   }
+  ]
+ }
+}

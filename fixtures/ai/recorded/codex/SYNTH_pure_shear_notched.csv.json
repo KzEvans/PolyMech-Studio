@@ -1,0 +1,33 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_pure_shear_notched.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "time",
+    "unit": "s",
+    "confidence": 1.0,
+    "rationale": "列名为 Time (s)，明确表示时间，数值从 0 开始递增。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "displacement",
+    "unit": "mm",
+    "confidence": 1.0,
+    "rationale": "列名为 Displacement (mm)，明确表示位移，数值从 0 开始递增。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "force",
+    "unit": "N",
+    "confidence": 1.0,
+    "rationale": "列名为 Force (N)，明确表示力；纯剪切缺口试验背景未提供将其识别为剥离力的依据。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

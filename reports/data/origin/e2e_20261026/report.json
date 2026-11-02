@@ -1,0 +1,175 @@
+{
+ "generated_at": "2026-10-25T18:10:48+00:00",
+ "passed": true,
+ "total_elapsed_s": 63.5,
+ "data": "SYNTHETIC fixture SYNTH_uniaxial_gbk_chinese.csv",
+ "steps": [
+  {
+   "step": 1,
+   "title": "macOS 上传单轴拉伸数据文件",
+   "file": "SYNTH_uniaxial_gbk_chinese.csv",
+   "sha256": "944f0fe6e4e5cbc0b3b06aee143d8a092fa335a3732a74430914cc0e0d303584",
+   "rows": 405,
+   "suggested": [
+    "time",
+    "force",
+    "displacement"
+   ],
+   "elapsed_s": 0.02
+  },
+  {
+   "step": 2,
+   "title": "Python 计算引擎生成标准化曲线",
+   "run_id": 2,
+   "version": 1,
+   "status": "ok",
+   "modulus_mpa": 1.1507,
+   "break_stretch": 4.0,
+   "elapsed_s": 0.01
+  },
+  {
+   "step": 3,
+   "title": "选择 Origin 绘图模板",
+   "template": "nominal_stress_stretch"
+  },
+  {
+   "step": 4,
+   "title": "macOS 向 Windows Bridge 发送任务",
+   "origin_job_id": 2,
+   "bridge_status": "queued"
+  },
+  {
+   "step": 5,
+   "title": "Windows Bridge 调用真实 Origin",
+   "status": "done",
+   "origin": {
+    "version": 10.250212,
+    "owned_pids": [
+     5632
+    ]
+   },
+   "error": ""
+  },
+  {
+   "step": 6,
+   "title": "Origin 生成工作簿及图页",
+   "books": [
+    "RawData",
+    "Processed",
+    "Summary",
+    "Metadata"
+   ],
+   "graphs": [
+    "Graph1"
+   ]
+  },
+  {
+   "step": 7,
+   "title": "保存 OPJU",
+   "opju": "SYN-E2E_uniaxial_20261026_uniaxial-v1.opju"
+  },
+  {
+   "step": 8,
+   "title": "导出预览图片",
+   "files": [
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.pdf",
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.png",
+    "SYN-E2E_uniaxial_20261026_uniaxial-v1_Graph1.svg"
+   ],
+   "export_errors": {},
+   "job_elapsed_s": 19.0
+  },
+  {
+   "step": 9,
+   "title": "macOS 接收真实 Origin 输出",
+   "folder": "origin/job2",
+   "opju_bytes": 73567,
+   "opju_magic": "CPYUA",
+   "sha256": "bc2de37ad1864910b67fccb8d1f20cb5c3bcc688860d4358efde3ebcedf7740e"
+  },
+  {
+   "step": 10,
+   "title": "再次在 Origin 中打开 OPJU 并检查数据和图页",
+   "bridge_reopen_passed": true,
+   "fresh_instance": {
+    "file": "SYN-E2E_uniaxial_20261026_uniaxial-v1.opju",
+    "size": 73567,
+    "origin_version": 10.250212,
+    "opened": true,
+    "books": [
+     {
+      "name": "RawData",
+      "long_name": "Raw Data",
+      "sheets": [
+       {
+        "name": "Raw",
+        "cols": 3,
+        "rows": 405,
+        "long_names": [
+         "时间",
+         "力",
+         "位移"
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Processed",
+      "long_name": "Processed Data",
+      "sheets": [
+       {
+        "name": "Curves",
+        "cols": 2,
+        "rows": 405,
+        "long_names": [
+         "拉伸比 λ",
+         "名义应力 σ"
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Summary",
+      "long_name": "",
+      "sheets": [
+       {
+        "name": "Results",
+        "cols": 3,
+        "rows": 5,
+        "long_names": [
+         "Quantity",
+         "Value (SI)",
+         "Unit"
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Metadata",
+      "long_name": "",
+      "sheets": [
+       {
+        "name": "Meta",
+        "cols": 2,
+        "rows": 16,
+        "long_names": [
+         "Key",
+         "Value"
+        ]
+       }
+      ]
+     }
+    ],
+    "graphs": [
+     {
+      "name": "Graph1",
+      "long_name": "名义应力–拉伸比",
+      "plots": 1
+     }
+    ],
+    "leftover_pids": []
+   },
+   "fresh_instance_passed": true
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{"installed":true,"directory":"C:\\Users\\kzevans\\AppData\\Local\\Programs\\PolyMech Studio","installer_sha256":"62b421c48357e08ee2b36f176fccf430b081bb5f0c3e9da38f9d5ec72090dfe4"}
+  health: {'status': 'ok', 'version': '0.1.0'}
+  ui: index.html served for client routes
+  uniaxial modulus MPa: 1.1507
+  matplotlib export: png 196321 B, svg 29817 B
+  literature: {'sources': 2, 'materials_created': 11, 'records_added': 42, 'records_updated': 0, 'records_skipped': 0}
+  DMA tan δ peak °C: -15.0
+  AI effort setting: low
+  AI providers: {'codex': False, 'claude': False, 'anthropic_api': True}
+  origin status: True
+SMOKE PASSED in 6.3 s
+SELFTEST_PASSED C:\PolyMechBuild\acceptance\desktop-final-2

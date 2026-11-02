@@ -1,0 +1,49 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_uniaxial_chinese_inline_units.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "time",
+    "unit": "s",
+    "confidence": 1.0,
+    "rationale": "列名为“试验时间/s”，明确表示时间，单位为秒。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "force",
+    "unit": "mN",
+    "confidence": 1.0,
+    "rationale": "列名“负荷/mN”表示力，单位为毫牛；未标明为剥离力。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "displacement",
+    "unit": "μm",
+    "confidence": 1.0,
+    "rationale": "列名“横梁位移/μm”明确表示位移，单位为微米。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 3,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 1.0,
+    "rationale": "列名“工程应力（MPa）”明确表示名义应力，单位为兆帕。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 4,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 1.0,
+    "rationale": "列名为“拉伸比”，初值为1，随后增大，符合拉伸比而非工程应变；该量无量纲，文件未标单位。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

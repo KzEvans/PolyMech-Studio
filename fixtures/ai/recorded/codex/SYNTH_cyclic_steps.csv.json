@@ -1,0 +1,33 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_cyclic_steps.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "cycle_number",
+    "unit": null,
+    "confidence": 0.99,
+    "rationale": "列名为 Cycle，样本值均为整数 1，符合第一个循环的编号；文件未标注单位。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 1.0,
+    "rationale": "列名明确为 Stretch ratio，数值从 1 开始，符合无量纲拉伸比；文件未标注单位。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 2,
+    "quantity": "nominal_stress",
+    "unit": "MPa",
+    "confidence": 1.0,
+    "rationale": "列名明确为 Nominal stress (MPa)，标明名义应力及单位 MPa，样本值从 0 开始。",
+    "ambiguities": []
+   }
+  ]
+ }
+}

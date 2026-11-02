@@ -1,0 +1,23 @@
+[package]
+name = "polymech-studio"
+version = "0.1.0"
+description = "PolyMech Studio desktop shell: starts the local Python backend and shows its UI"
+edition = "2021"
+publish = false
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-single-instance = "2"
+tauri-plugin-window-state = "2"
+serde_json = "1"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.56"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1

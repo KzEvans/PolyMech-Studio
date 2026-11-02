@@ -1,0 +1,54 @@
+uv run ruff check .
+All checks passed!
+uv run ruff format --check .
+163 files already formatted
+uv run mypy
+Success: no issues found in 71 source files
+uv run pytest
+........................................................................ [ 23%]
+........................................................................ [ 47%]
+........................................................................ [ 70%]
+........................................................................ [ 94%]
+..................                                                       [100%]
+306 passed in 13.93s
+uv run pytest packages/mechanics --cov=polymech_mechanics --cov-report=term-missing --cov-fail-under=90
+........................................................................ [ 66%]
+.....................................                                    [100%]
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.14-final-0 _______________
+
+Name                                                      Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------------------------------------------
+packages/mechanics/src/polymech_mechanics/__init__.py         0      0      0      0   100%
+packages/mechanics/src/polymech_mechanics/_numeric.py        25      1      8      1    94%   16
+packages/mechanics/src/polymech_mechanics/cyclic.py         145      7     40      8    92%   39, 41, 94->100, 101, 110, 112, 122, 133
+packages/mechanics/src/polymech_mechanics/dma.py            277     13     92     14    93%   61, 129, 145, 169, 173, 189, 192, 229, 231, 235, 240, 252, 317->337, 338
+packages/mechanics/src/polymech_mechanics/errors.py           8      0      0      0   100%
+packages/mechanics/src/polymech_mechanics/fatigue.py        216      9     64     10    93%   73, 154, 157, 162, 230, 260, 266, 290->285, 304, 372
+packages/mechanics/src/polymech_mechanics/fitting.py         28      1      0      0    96%   29
+packages/mechanics/src/polymech_mechanics/flags.py           13      0      0      0   100%
+packages/mechanics/src/polymech_mechanics/pure_shear.py     113      4     34      4    95%   103, 138-139, 196->203, 200
+packages/mechanics/src/polymech_mechanics/statistics.py      29      0      2      0   100%
+packages/mechanics/src/polymech_mechanics/uniaxial.py       202      9     52     11    92%   73, 115, 163, 170->173, 181, 217, 220, 223, 251, 286->293, 323
+packages/mechanics/src/polymech_mechanics/units.py           33      2      8      2    90%   56, 66
+-----------------------------------------------------------------------------------------------------
+TOTAL                                                      1089     46    300     50    93%
+Required test coverage of 90% reached. Total coverage: 93.09%
+109 passed in 2.31s
+pnpm -C apps/web typecheck
+$ tsc -b
+pnpm -C apps/web test
+$ vitest run
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vite.config" without a file extension (vitest.config.ts:2:24). Add the file extension
+  - `__dirname` (vite.config.ts:10:41). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.0.5 /Users/kzevans/Polymech/apps/web
+
+
+ Test Files  4 passed (4)
+      Tests  9 passed (9)
+   Start at  17:56:36
+   Duration  1.24s (environment 70%, setup 16%, import 9%, tests 3%, transform 1%)
+

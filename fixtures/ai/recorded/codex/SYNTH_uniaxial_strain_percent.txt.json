@@ -1,0 +1,29 @@
+{
+ "provider": "codex",
+ "model": "codex-default",
+ "table": "SYNTH_uniaxial_strain_percent.txt",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "engineering_strain",
+    "unit": "%",
+    "confidence": 0.97,
+    "rationale": "列名为 Strain(%)，明确使用百分数，数值从 0 开始，符合工程应变特征。",
+    "ambiguities": [
+     "未明确注明应变定义，但可排除通常从 1 开始的拉伸比。"
+    ]
+   },
+   {
+    "column_index": 1,
+    "quantity": "unknown",
+    "unit": "MPa",
+    "confidence": 0.98,
+    "rationale": "列名 Stress(MPa) 明确表示应力及其单位，但无法确定是名义应力还是真实应力。",
+    "ambiguities": [
+     "未说明应力按初始截面积还是瞬时截面积计算；样例数值无法区分 nominal_stress 与 true_stress。"
+    ]
+   }
+  ]
+ }
+}

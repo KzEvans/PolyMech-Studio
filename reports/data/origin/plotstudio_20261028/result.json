@@ -1,0 +1,102 @@
+{
+ "made": {
+  "books": [
+   {
+    "name": "DataA",
+    "long_name": "面板 (a) 数据",
+    "sheets": [
+     "Data"
+    ]
+   },
+   {
+    "name": "DataB",
+    "long_name": "面板 (b) 数据",
+    "sheets": [
+     "Data"
+    ]
+   },
+   {
+    "name": "Metadata",
+    "long_name": "Metadata",
+    "sheets": [
+     "Meta"
+    ]
+   }
+  ],
+  "graphs": [
+   {
+    "name": "FigA",
+    "long_name": "PEHA_tensile (a)",
+    "template": "pm_thesis_line",
+    "template_mode": "native",
+    "style": "thesis",
+    "n_plots": 2
+   },
+   {
+    "name": "FigB",
+    "long_name": "PEHA_tensile (b)",
+    "template": "pm_thesis_line",
+    "template_mode": "native",
+    "style": "thesis",
+    "n_plots": 1
+   }
+  ],
+  "exports": {
+   "png": [
+    "PEHA_tensile_20261028-133836_FigA.png",
+    "PEHA_tensile_20261028-133836_FigB.png"
+   ],
+   "pdf": [
+    "PEHA_tensile_20261028-133836_FigA.pdf",
+    "PEHA_tensile_20261028-133836_FigB.pdf"
+   ]
+  },
+  "export_errors": {},
+  "opju": "PEHA_tensile_20261028-133836.opju"
+ },
+ "origin": {
+  "version": 10.250212,
+  "owned_pids": [
+   468
+  ]
+ },
+ "verification": {
+  "opened": true,
+  "checks": [
+   {
+    "book": "DataA",
+    "sheet": "Data",
+    "rows": 13098,
+    "expected_rows": 13098,
+    "ok": true
+   },
+   {
+    "book": "DataB",
+    "sheet": "Data",
+    "rows": 13098,
+    "expected_rows": 13098,
+    "ok": true
+   },
+   {
+    "book": "Metadata",
+    "sheet": "Meta",
+    "rows": 11,
+    "expected_rows": 11,
+    "ok": true
+   },
+   {
+    "graph": "FigA",
+    "plots": 2,
+    "expected_plots": 2,
+    "ok": true
+   },
+   {
+    "graph": "FigB",
+    "plots": 1,
+    "expected_plots": 1,
+    "ok": true
+   }
+  ],
+  "passed": true
+ }
+}

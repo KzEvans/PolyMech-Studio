@@ -1,0 +1,432 @@
+{
+  "source": "Existing macOS SYNTHETIC self-test output (no new macOS app run) vs frozen Windows output",
+  "numeric_fields": 42,
+  "all_passed": true,
+  "comparisons": [
+    {
+      "field": "uniaxial.break_index",
+      "macos": 399,
+      "windows": 399,
+      "unit": "count/index",
+      "absolute_error": 0,
+      "absolute_tolerance": 0,
+      "relative_tolerance": 0,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.slope",
+      "macos": 1150671.1272315492,
+      "windows": 1150671.127231549,
+      "unit": "Pa",
+      "absolute_error": 2.3283064365386963e-10,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.intercept",
+      "macos": -1150357.0754458348,
+      "windows": -1150357.0754458345,
+      "unit": "Pa",
+      "absolute_error": 2.3283064365386963e-10,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.slope_stderr",
+      "macos": 6656.6434250473785,
+      "windows": 6656.643425047378,
+      "unit": "Pa",
+      "absolute_error": 9.094947017729282e-13,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.intercept_stderr",
+      "macos": 6807.529326277514,
+      "windows": 6807.529326277513,
+      "unit": "Pa",
+      "absolute_error": 9.094947017729282e-13,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.r_squared",
+      "macos": 0.9998326963194917,
+      "windows": 0.9998326963194917,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.n_points",
+      "macos": 7,
+      "windows": 7,
+      "unit": "count/index",
+      "absolute_error": 0,
+      "absolute_tolerance": 0,
+      "relative_tolerance": 0,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.x_min",
+      "macos": 1.0,
+      "windows": 1.0,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.x_max",
+      "macos": 1.0451128,
+      "windows": 1.0451128,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[0]",
+      "macos": -314.0517857144587,
+      "windows": -314.0517857144587,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[1]",
+      "macos": -6.967857142910361,
+      "windows": -6.967857142910361,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[2]",
+      "macos": 184.31607142817302,
+      "windows": 184.31607142840585,
+      "unit": "Pa",
+      "absolute_error": 2.3283064365386963e-10,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[3]",
+      "macos": 244.9999999997235,
+      "windows": 244.9999999997235,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[4]",
+      "macos": 242.13392857127474,
+      "windows": 242.13392857127474,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[5]",
+      "macos": -37.38214285718277,
+      "windows": -37.38214285718277,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.residuals[6]",
+      "macos": -313.0482142858673,
+      "windows": -313.0482142858673,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.modulus_fit.cov_slope_intercept",
+      "macos": -45310396.111061715,
+      "windows": -45310396.1110728,
+      "unit": "Pa^2",
+      "absolute_error": 1.1086463928222656e-05,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.max_stress_pa",
+      "macos": 1575345.0,
+      "windows": 1575345.0,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.stretch_at_max_stress",
+      "macos": 4.0,
+      "windows": 4.0,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.break_stress_pa",
+      "macos": 1575345.0,
+      "windows": 1575345.0,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.break_stretch",
+      "macos": 4.0,
+      "windows": 4.0,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.elongation_at_break_percent",
+      "macos": 300.0,
+      "windows": 300.0,
+      "unit": "%",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.work_of_fracture_j_m3",
+      "macos": 2699912.329004129,
+      "windows": 2699912.329004129,
+      "unit": "J/m^3",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.work_of_fracture_numerical_error_j_m3",
+      "macos": 87.38652578974143,
+      "windows": 87.38652578974143,
+      "unit": "J/m^3",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.hardening.stretch_at_min_modulus",
+      "macos": 3.3082700000000003,
+      "windows": 3.3082700000000003,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.hardening.min_differential_modulus_pa",
+      "macos": -339095.7446808578,
+      "windows": -339095.7446808578,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "uniaxial.hardening.final_differential_modulus_pa",
+      "macos": 786569.1489361422,
+      "windows": 786569.1489361422,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.consistency_deviation",
+      "macos": 1.084700745835037e-06,
+      "windows": 1.084700745835037e-06,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].n_points",
+      "macos": 171,
+      "windows": 171,
+      "unit": "count/index",
+      "absolute_error": 0,
+      "absolute_tolerance": 0,
+      "relative_tolerance": 0,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].x_min",
+      "macos": 203.14999999999998,
+      "windows": 203.14999999999998,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].x_max",
+      "macos": 373.15,
+      "windows": 373.15,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[0].temperature_k",
+      "macos": 258.15,
+      "windows": 258.15,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[0].value",
+      "macos": 1.25,
+      "windows": 1.25,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[0].prominence",
+      "macos": 1.2,
+      "windows": 1.2,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[1].temperature_k",
+      "macos": 253.61724221397446,
+      "windows": 253.61724221397446,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[1].value",
+      "macos": 495602899.8305631,
+      "windows": 495602899.8305631,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[1].prominence",
+      "macos": 444786400.0,
+      "windows": 444786400.0,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].tg[2].temperature_k",
+      "macos": 251.45750833119558,
+      "windows": 251.45750833119558,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].reference_values[0].temperature_k",
+      "macos": 298.15,
+      "windows": 298.15,
+      "unit": "K",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-08,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].reference_values[0].storage_modulus_pa",
+      "macos": 2552780.0,
+      "windows": 2552780.0,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].reference_values[0].loss_modulus_pa",
+      "macos": 127639.0,
+      "windows": 127639.0,
+      "unit": "Pa",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "field": "dma.series[0].reference_values[0].loss_factor",
+      "macos": 0.0500001,
+      "windows": 0.0500001,
+      "unit": "dimensionless",
+      "absolute_error": 0.0,
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "passed": true
+    }
+  ],
+  "input_hashes_match": true,
+  "parameters_match": true,
+  "input_and_params_identical": true,
+  "application_code_commit": "70637b9730869c436c5e23e34ebe080cc1ed5ece",
+  "packaging_commit": "1c6b97f17e214b5b72c93edec6e58d7fcb56b05a"
+}

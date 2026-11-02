@@ -1,0 +1,27 @@
+{
+ "provider": "claude",
+ "model": "claude-opus-5-5",
+ "table": "SYNTH_uniaxial_decimal_comma.csv",
+ "response": {
+  "columns": [
+   {
+    "column_index": 0,
+    "quantity": "stretch",
+    "unit": null,
+    "confidence": 0.95,
+    "rationale": "列名λ是拉伸比的常用符号，数值从1.0开始缓慢增加（1.0→1.02），符合拉伸比特征，属于无量纲量。",
+    "ambiguities": []
+   },
+   {
+    "column_index": 1,
+    "quantity": "nominal_stress",
+    "unit": "kPa",
+    "confidence": 0.95,
+    "rationale": "列名σ_nom明确表示名义应力，单位写明为kPa，数值从0开始随拉伸比单调增加。",
+    "ambiguities": [
+     "文件名提示原始数据使用逗号作小数点，样本行已解析为数值，需确认导入时小数分隔符处理正确。"
+    ]
+   }
+  ]
+ }
+}

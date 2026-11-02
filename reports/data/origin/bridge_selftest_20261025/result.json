@@ -1,0 +1,101 @@
+{
+ "made": {
+  "books": [
+   {
+    "name": "RawData",
+    "long_name": "Raw Data (SYNTHETIC)",
+    "sheets": [
+     "Raw"
+    ]
+   },
+   {
+    "name": "Processed",
+    "long_name": "Processed Data",
+    "sheets": [
+     "Curves"
+    ]
+   },
+   {
+    "name": "Summary",
+    "long_name": "Summary",
+    "sheets": [
+     "Results"
+    ]
+   },
+   {
+    "name": "Metadata",
+    "long_name": "Metadata",
+    "sheets": [
+     "Meta"
+    ]
+   }
+  ],
+  "graphs": [
+   {
+    "name": "GStress",
+    "long_name": "Nominal stress vs stretch",
+    "template": "line",
+    "n_plots": 2
+   }
+  ],
+  "exports": {
+   "png": [
+    "SYNTH-SELFTEST_uniaxial_v1_GStress.png"
+   ],
+   "pdf": [
+    "SYNTH-SELFTEST_uniaxial_v1_GStress.pdf"
+   ],
+   "svg": [
+    "SYNTH-SELFTEST_uniaxial_v1_GStress.svg"
+   ]
+  },
+  "export_errors": {},
+  "opju": "SYNTH-SELFTEST_uniaxial_v1.opju"
+ },
+ "origin": {
+  "version": 10.250212,
+  "owned_pids": [
+   11796
+  ]
+ },
+ "verification": {
+  "opened": true,
+  "checks": [
+   {
+    "book": "RawData",
+    "sheet": "Raw",
+    "rows": 300,
+    "expected_rows": 300,
+    "ok": true
+   },
+   {
+    "book": "Processed",
+    "sheet": "Curves",
+    "rows": 300,
+    "expected_rows": 300,
+    "ok": true
+   },
+   {
+    "book": "Summary",
+    "sheet": "Results",
+    "rows": 2,
+    "expected_rows": 2,
+    "ok": true
+   },
+   {
+    "book": "Metadata",
+    "sheet": "Meta",
+    "rows": 2,
+    "expected_rows": 2,
+    "ok": true
+   },
+   {
+    "graph": "GStress",
+    "plots": 2,
+    "expected_plots": 2,
+    "ok": true
+   }
+  ],
+  "passed": true
+ }
+}
